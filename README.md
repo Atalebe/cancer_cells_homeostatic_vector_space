@@ -1,0 +1,44 @@
+# Cancer Cells HRSM Sims, Initial Setup
+
+This starter repository scaffolds the cancer-cell HRSM program described in the logbook.
+It is designed for a clean first pass focused on a single strong branch before later expansion.
+
+## Initial objective
+
+Start with one single-cell cancer dataset that supports a stem-like versus non-stem malignant comparison.
+The first pass should realize the dataset, build a biologically anchored state table, visualize HRSM geometry,
+and test whether stem-like malignant cells preferentially occupy high-H, high-M, low-R territory.
+
+## Repo philosophy
+
+- Keep one clean trunk before expanding to treatment and resistance branches.
+- Keep recoverability distinct from proliferation.
+- Treat cell cycle, metabolism, chromatin, oxidative stress, and apoptosis as overlays.
+- Log every step in machine-readable and human-readable form.
+- Write milestone-based LaTeX logbook entries as soon as a stage becomes interpretable.
+
+## Suggested first commands
+
+```bash
+python scripts/setup/00_init_repo.py
+python scripts/setup/01_build_dataset_registry.py
+python scripts/setup/02_make_run_ledger.py
+python scripts/downloads/10_download_dataset.py --config configs/cancer/example_stem_branch.yaml --dry-run
+python scripts/cancer/11_build_metadata_registry.py --config configs/cancer/example_stem_branch.yaml
+python scripts/qc/12_audit_dataset.py --config configs/cancer/example_stem_branch.yaml
+python scripts/cancer/13_build_master_table.py --config configs/cancer/example_stem_branch.yaml
+```
+
+## Priority order for branches
+
+1. Cancer stem-like versus non-stem malignant cells
+2. Tumor versus matched normal
+3. Drug-sensitive versus drug-resistant
+4. Treatment naive versus treatment exposed
+5. Malignant progression or dedifferentiation
+
+## Notes
+
+This starter kit intentionally avoids hard-wiring a specific public dataset accession. The next move is to add
+3 to 5 candidate Tier 1 datasets to the registry, score them, and choose one primary dataset plus one backup.
+# cancer_cells_homeostatic_vector_space
