@@ -1,5 +1,0 @@
-program,n_requested_genes,n_present_genes,present_genes
-bcell_lymphoid_like,13,13,BTLA; CRTAM; FCMR; FCRL3; FOXO1; GZMM; IGHM; KLRB1; MAL; MS4A1; P2RY10; SKAP1; THEMIS
-antigen_presentation,12,12,B2M; HLA-A; HLA-B; HLA-C; HLA-E; HLA-F; HLA-G; NLRC5; PSMB8; PSMB9; TAP1; TAP2
-stress_immediate_early,7,7,BTG1; DUSP1; FOS; GADD45A; HSPA1A; HSPA1B; JUN
-malignant_output_core,14,14,ACTB; ACTG1; DDX5; EEF1A1; ENO1; FTL; GAPDH; HSPA8; PABPC1; RPL3; RPL4; RPLP0; RPS4X; RPS6

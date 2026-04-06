@@ -1,6 +1,0 @@
-key,value
-dataset_id,gse240704
-skipped_existing_files[0],data/raw/gse240704/GSE240704_Matrix_non-normalized.txt.gz
-skipped_existing_files[1],data/raw/gse240704/GSE240704_Matrix_normalized.txt.gz
-skipped_existing_files[2],data/raw/gse240704/filelist.txt
-raw_dir,data/raw/gse240704

@@ -1,5 +1,0 @@
-file,suffix,size_bytes,mode,read_ok,source_name,n_rows_preview,n_cols_preview,annotation_col_score,candidate_probe_cols,candidate_gene_cols,candidate_feature_cols,candidate_island_cols,candidate_chr_cols,columns_preview,notes
-data/raw/annotations/gpl23976_bundle/GPL23976_accession_page.html,.html,164315,html_table,True,html_table_0,1.0,1.0,0.0,[],[],[],[],[],['0'],
-data/raw/annotations/gpl23976_bundle/acc.cgi,.cgi,164315,html_table,True,html_table_0,1.0,1.0,0.0,[],[],[],[],[],['0'],
-data/raw/annotations/gpl23976_bundle/miniml,,6037,soft_or_text_preview,False,,,,,[],[],[],[],[],[],"{""header_preview"": [], ""table_preview"": []}"
-data/raw/annotations/gpl23976_bundle/soft,,84,soft_or_text_preview,False,,,,,[],[],[],[],[],[],"{""header_preview"": [], ""table_preview"": []}"

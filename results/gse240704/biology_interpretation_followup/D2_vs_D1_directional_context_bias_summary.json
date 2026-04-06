@@ -1,7 +1,0 @@
-{
-  "input_csv": "results/gse240704/manifest_reannotated/D2_vs_D1_top_200_probes_normalized_annotation.csv",
-  "label": "D2_vs_D1",
-  "direction_col_used": null,
-  "n_rows_input": 200,
-  "note": "No direction column present, directional context bias skipped."
-}

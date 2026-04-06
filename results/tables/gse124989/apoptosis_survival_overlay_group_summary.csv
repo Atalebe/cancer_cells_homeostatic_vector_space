@@ -1,4 +1,0 @@
-population_label,survival_score,apoptosis_score,survival_minus_apoptosis_score,H,S,M,R
-G1,0.1777,-0.0808,0.2585,-1.0076,-0.4389,-0.6745,1.3231
-PKH26_High,0.0061,-0.1418,0.1479,0.7261,-0.3994,0.6745,-0.6078
-PKH26_Low,0.0296,-0.0552,0.0849,-0.1998,-0.0471,0.0,0.1032

@@ -1,3 +1,0 @@
-direction,n_probes,top_gene_tokens,top_refgene_contexts,top_cpg_contexts
-lower_in_a,44,SIM2; MAPT; ISL2; PPARG; PAX6; IRF6; SBNO2; WDR69; JPH4; PITX1,Body;Body; Body; 3'UTR; TSS200; 1stExon,Island; N_Shore; S_Shore
-higher_in_a,156,NR3C1; TPO; HGF; BTNL8; SLC8A3; PHACTR2; FHIT; ANXA2; GRIN2A; POM121L12,Body; TSS1500; TSS200; 3'UTR; Body;Body,Island; S_Shore; N_Shelf; S_Shelf; N_Shore

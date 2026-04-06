@@ -1,4 +1,0 @@
-shell_sample_id,k,domain_neighbor_purity,condition_neighbor_purity,dominant_neighbor_domain,dominant_neighbor_condition,neighbor_median_distance,neighbor_phi_median
-SAMPLE 24,15,0.5333333333333333,0.4666666666666667,D3,mgmt_non_methylated,2.779478378857354,4.823397710803521
-SAMPLE 341,15,0.6666666666666666,0.4666666666666667,D1,mgmt_non_methylated,2.116758761939012,3.6158797734081487
-SAMPLE 35,15,0.4666666666666667,0.5333333333333333,D2,nan,2.9287703959231157,3.831571444438893

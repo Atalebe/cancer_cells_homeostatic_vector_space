@@ -1,7 +1,0 @@
-{
-  "candidate_csv": "results/gse240704/annotation_bundle_download/link_harvest/gpl23976_candidate_links.csv",
-  "n_attempted": 841,
-  "n_ok": 832,
-  "n_failed": 9,
-  "download_csv": "data/raw/annotations/gpl23976_candidate_payloads/downloaded_candidate_payloads.csv"
-}

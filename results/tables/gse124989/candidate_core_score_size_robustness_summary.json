@@ -1,9 +1,0 @@
-{
-  "dataset_id": "gse124989",
-  "sizes_tested": [
-    12,
-    16,
-    20
-  ],
-  "output_file": "results/tables/gse124989/candidate_core_score_size_robustness.csv"
-}

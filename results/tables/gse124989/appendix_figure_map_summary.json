@@ -1,7 +1,0 @@
-{
-  "dataset_id": "gse124989",
-  "figures_dir": "results/figures/gse124989",
-  "n_figures": 22,
-  "output_csv": "results/tables/gse124989/appendix_figure_map.csv",
-  "output_json": "results/tables/gse124989/appendix_figure_map.json"
-}

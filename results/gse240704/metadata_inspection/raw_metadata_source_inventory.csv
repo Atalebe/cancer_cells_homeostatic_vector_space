@@ -1,4 +1,0 @@
-file,json_top_keys,sample_like_keys,read_ok,delimiter_guess,n_preview_lines,header_preview,candidate_columns,n_rows_preview
-data/raw/gse240704/download_manifest.json,"['dataset_id', 'accession', 'series_url', 'supplementary_url', 'series_html', 'supplementary_index_html', 'supplementary_links', 'downloaded_files']",[],True,,,,,
-data/raw/gse240704/filelist.txt,,,True,	,80.0,#Archive/File	Name	Time	Size	Type,[],200.0
-data/raw/gse240704/gse240704_actual_download_summary.json,"['dataset_id', 'downloaded_files', 'skipped_existing_files', 'raw_dir']",[],True,,,,,

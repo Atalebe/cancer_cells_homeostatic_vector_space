@@ -1,8 +1,0 @@
-{
-  "definition": "internal state-age proxy = mean(rank(H), rank(M), rank(phi), 1-rank(R))",
-  "note": "This is not chronological patient age. It is a state-position age proxy.",
-  "outputs": {
-    "per_cell_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/age_axis_proxy/state_age_proxy_per_cell.csv",
-    "tests_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/age_axis_proxy/state_age_proxy_tests.csv"
-  }
-}

@@ -1,9 +1,0 @@
-direction,regulatory_feature_group,n,fraction_within_direction
-higher_in_a,Unclassified_Cell_type_specific,7,0.4375
-higher_in_a,Unclassified,5,0.3125
-higher_in_a,Promoter_Associated,3,0.1875
-higher_in_a,NonGene_Associated_Cell_type_specific,1,0.0625
-lower_in_a,Unclassified_Cell_type_specific,6,0.4
-lower_in_a,Promoter_Associated,4,0.26666666666666666
-lower_in_a,Unclassified,4,0.26666666666666666
-lower_in_a,Gene_Associated_Cell_type_specific,1,0.06666666666666667

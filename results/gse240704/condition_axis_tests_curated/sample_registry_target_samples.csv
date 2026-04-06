@@ -1,4 +1,0 @@
-sample_id,sample_number,in_normalized_matrix,in_non_normalized_matrix,placeholder_condition,placeholder_group,placeholder_batch,placeholder_note
-SAMPLE 24,24,True,True,,,,
-SAMPLE 35,35,True,True,,,,
-SAMPLE 341,341,True,True,,,,

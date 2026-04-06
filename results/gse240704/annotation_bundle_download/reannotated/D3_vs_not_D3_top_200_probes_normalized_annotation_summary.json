@@ -1,9 +1,0 @@
-{
-  "contrast_csv": "results/gse240704/d2_d3_probe_signatures/D3_vs_not_D3_top_200_probes.csv",
-  "probe_col_used": "ID_REF",
-  "n_rows_input": 200,
-  "n_rows_output": 200,
-  "n_rows_with_gene_symbol": 0,
-  "n_rows_with_feature_context": 0,
-  "n_rows_with_island_context": 0
-}

@@ -1,7 +1,0 @@
-comparison,n_shell_curated,n_rest_curated,meth_shell,nonmeth_shell,meth_rest,nonmeth_rest,fisher_odds_ratio,fisher_p_value,source_col,shell_median,rest_median,delta_median_shell_minus_rest,u_statistic,p_value
-stable_shell_vs_rest_mgmt_enrichment,2,228,2.0,0.0,106.0,122.0,inf,0.21940383520030377,,,,,,
-stable_shell_vs_rest_axis_H,2,228,,,,,,,H_dom,1.389013335,-0.0007253441,1.3897386791,389.0,0.09037402696031897
-stable_shell_vs_rest_axis_S,2,228,,,,,,,S_dom,4.635883034128187,-0.0360516292138003,4.671934663341988,435.0,0.010024681982153028
-stable_shell_vs_rest_axis_M,2,228,,,,,,,M_dom,1.2080473,0.08962323,1.11842407,437.0,0.00835390165179419
-stable_shell_vs_rest_axis_R,2,228,,,,,,,R_dom,-1.5095991,-0.0427575575,-1.4668415424999999,94.0,0.1749762673248528
-stable_shell_vs_rest_axis_phi,2,228,,,,,,,phi_dom,5.384050862687815,1.8025365455082634,3.5815143171795514,433.0,0.01184735143345358

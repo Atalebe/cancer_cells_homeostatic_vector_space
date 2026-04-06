@@ -1,3 +1,0 @@
-direction,n_probes,median_abs_delta,max_abs_delta,median_abs_rank_biserial,best_q_value_bh,top_probe_example,top_gene_tokens_json,dominant_feature,feature_counts_json,dominant_island_context,island_counts_json,top_chromosomes_json
-higher_in_a,174,0.430706989339616,0.595019483990714,0.7644230769230769,2.1049786685141124e-05,cg23352271,{},,{},,{},{}
-lower_in_a,26,0.3937174661528349,0.5796770032354145,0.7870879120879121,2.1049786685141124e-05,cg10456990,{},,{},,{},{}

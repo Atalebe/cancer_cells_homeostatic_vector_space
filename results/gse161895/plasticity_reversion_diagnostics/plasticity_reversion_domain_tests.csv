@@ -1,3 +1,0 @@
-metric,group_a,group_b,n_a,n_b,median_a,median_b,delta_median_a_minus_b,u_statistic,p_value
-plasticity_distance_to_domain,D1,D2,1238,4165,1.5503197792201393,1.6783636118590863,-0.12804383263894703,2281057.0,7.047166238223487e-10
-reversion_distance_to_donor,D1,D2,1238,4165,5.716931244540026,2.0741832961111895,3.6427479484288368,5045667.0,0.0

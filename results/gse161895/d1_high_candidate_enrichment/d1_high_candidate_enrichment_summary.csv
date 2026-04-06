@@ -1,4 +1,0 @@
-gene_set,n_hits_in_d1_high_top200,hits,odds_ratio,p_value,target_size,gene_set_size_in_universe,contingency_a_target_and_set,contingency_b_target_not_set,contingency_c_background_set,contingency_d_background_not_set
-erythrocyte_development_seed,2,HBA2; HBB,63.35897435897436,0.001439815215865323,197,4,2,195,2,12355
-apoptosis_seed,0,,0.0,1.0,197,14,0,197,14,12343
-hypoxia_seed,0,,0.0,1.0,197,9,0,197,9,12348

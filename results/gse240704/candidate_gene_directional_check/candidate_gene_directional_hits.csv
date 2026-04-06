@@ -1,2 +1,0 @@
-candidate_gene,probe_id,direction,delta_median_a_minus_b,delta_mean_a_minus_b,abs_delta_median,rank_biserial,q_value_bh,p_value,chromosome,position,refgene_group,relation_to_cpg_island,raw_gene_annotation
-PAX6,cg09382096,lower_in_a,-0.2470137970417755,-0.1602180380343373,0.2470137970417755,-0.4171469740634006,0.2510057321425517,0.0047939073346873,11,31827593.0,Body;Body;Body,N_Shore,PAX6;PAX6;PAX6

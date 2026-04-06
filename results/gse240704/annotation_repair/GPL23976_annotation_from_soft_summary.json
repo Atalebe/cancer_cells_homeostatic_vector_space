@@ -1,9 +1,0 @@
-{
-  "soft_gz": "data/raw/annotations/GSE240704_family.soft.gz",
-  "n_rows": 866895,
-  "n_columns": 2,
-  "columns": [
-    "ID",
-    "SPOT_ID"
-  ]
-}

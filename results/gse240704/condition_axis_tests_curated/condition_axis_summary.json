@@ -1,9 +1,0 @@
-{
-  "n_total_merged": 363,
-  "condition_column_used": "placeholder_condition_cur",
-  "n_total_curated_subset": 230,
-  "n_mgmt_methylated": 108,
-  "n_mgmt_non_methylated": 122,
-  "n_stable_shell_samples": 3,
-  "n_axes_tested": 5
-}

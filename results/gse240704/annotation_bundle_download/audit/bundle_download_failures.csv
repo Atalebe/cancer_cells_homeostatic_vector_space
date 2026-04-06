@@ -1,3 +1,0 @@
-url,label,error
-"javascript:RPopUpWindow_Set(geoaxema_famsoft,260,120,'','','#E1EAE6','','#538AA9','MessageBox2');",,URLError('unknown url type: javascript')
-"javascript:RPopUpWindow_Set(geoaxema_famminiml,260,120,'','','#E1EAE6','','#538AA9','MessageBox2');",,URLError('unknown url type: javascript')

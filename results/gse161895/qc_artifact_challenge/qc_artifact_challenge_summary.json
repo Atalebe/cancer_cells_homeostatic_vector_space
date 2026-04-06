@@ -1,9 +1,0 @@
-{
-  "n_cells_total": 5403,
-  "n_cells_challenge_subset": 4339,
-  "challenge_thresholds": {
-    "total_counts_ge": 6011.4000000000015,
-    "detected_genes_ge": 79.0,
-    "mito_fraction_le": 0.32575930573255757
-  }
-}

@@ -1,9 +1,0 @@
-comparison,axis,n_near,n_far,median_near,median_far,delta_median_near_minus_far,u_statistic,p_value,condition_counts_json,fisher_odds_ratio,meth_near,nonmeth_near,meth_far,nonmeth_far
-D3_shell_near_vs_far_H,H,8.0,8.0,0.4270931,-0.5445407250000001,0.971633825,46.0,0.1605283605283605,,,,,,
-D3_shell_near_vs_far_S,S,8.0,8.0,5.143092352172077,9.304318125155527,-4.161225772983452,0.0,0.0001554001554001,,,,,,
-D3_shell_near_vs_far_M,M,8.0,8.0,0.59182735,0.42838111,0.1634462399999999,40.0,0.4418026418026417,,,,,,
-D3_shell_near_vs_far_R,R,8.0,8.0,-0.31868599,0.83922173,-1.15790772,16.0,0.1048951048951048,,,,,,
-D3_shell_near_vs_far_phi,phi,8.0,8.0,5.291905355354545,9.516331465420723,-4.224426110066179,0.0,0.0001554001554001,,,,,,
-D3_shell_far_condition_counts,,,8.0,,,,,,"{""mgmt_non_methylated"": 4, ""nan"": 3, ""mgmt_methylated"": 1}",,,,,
-D3_shell_near_condition_counts,,8.0,,,,,,,"{""nan"": 4, ""mgmt_methylated"": 2, ""mgmt_non_methylated"": 2}",,,,,
-D3_shell_near_vs_far_mgmt_enrichment,condition,8.0,8.0,,,,,0.5238095238095238,,4.0,2.0,2.0,1.0,4.0

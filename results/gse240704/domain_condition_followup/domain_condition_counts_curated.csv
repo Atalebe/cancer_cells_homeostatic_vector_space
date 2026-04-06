@@ -1,7 +1,0 @@
-state_domain,condition_clean,n
-D1,mgmt_methylated,65
-D1,mgmt_non_methylated,96
-D2,mgmt_methylated,40
-D2,mgmt_non_methylated,20
-D3,mgmt_methylated,3
-D3,mgmt_non_methylated,6

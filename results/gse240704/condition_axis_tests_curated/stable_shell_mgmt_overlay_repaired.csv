@@ -1,4 +1,0 @@
-sample_id,state_domain,placeholder_condition_cur,biological_condition,tumor_status,characteristics_ch1,phi,H,S,M,R
-SAMPLE 24,D3,mgmt_methylated,mgmt_methylated,methylated,"mgmt promoter methylation status [0=non-methylated, 1=methylated]: 1",5.704064226558708,0.74083817,5.46074209834028,1.3410197,-0.6078398
-SAMPLE 35,D2,mgmt_methylated,mgmt_methylated,methylated,"mgmt promoter methylation status [0=non-methylated, 1=methylated]: 1",5.064037498816922,2.0371885,3.811023969916094,1.0750749,-2.4113584
-SAMPLE 341,D3,,,,,4.647477639921947,0.79190624,4.368883998525338,1.2883768,-0.47420532

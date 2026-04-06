@@ -1,9 +1,0 @@
-direction,relation_to_cpg_island,n,fraction_within_direction
-higher_in_a,S_Shore,16,0.35555555555555557
-higher_in_a,S_Shelf,11,0.24444444444444444
-higher_in_a,N_Shelf,10,0.2222222222222222
-higher_in_a,Island,5,0.1111111111111111
-higher_in_a,N_Shore,3,0.06666666666666667
-lower_in_a,Island,15,0.5769230769230769
-lower_in_a,N_Shore,9,0.34615384615384615
-lower_in_a,S_Shore,2,0.07692307692307693

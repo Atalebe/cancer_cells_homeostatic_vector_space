@@ -1,8 +1,0 @@
-{
-  "group_a": "D2_1",
-  "group_b": "D2_2",
-  "n_genes_tested": 15350,
-  "n_genes_clean": 15318,
-  "n_group_a_cells": 1645,
-  "n_group_b_cells": 2520
-}

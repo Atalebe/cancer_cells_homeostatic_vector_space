@@ -1,9 +1,0 @@
-{
-  "contrast_csv": "results/gse240704/s_axis_drivers/s_axis_top_probe_drivers_annotated.csv",
-  "probe_col_used": "ID_REF",
-  "n_rows_input": 100,
-  "n_rows_output": 100,
-  "n_rows_with_gene_symbol": 0,
-  "n_rows_with_feature_context": 0,
-  "n_rows_with_island_context": 0
-}

@@ -1,9 +1,0 @@
-{
-  "annotation_csv": "results/gse240704/annotation_repair/GPL23976_annotation_from_soft.csv",
-  "n_rows": 866895,
-  "n_columns": 2,
-  "columns": [
-    "ID",
-    "SPOT_ID"
-  ]
-}
