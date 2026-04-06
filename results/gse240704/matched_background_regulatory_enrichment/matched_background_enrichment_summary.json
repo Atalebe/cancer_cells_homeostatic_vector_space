@@ -1,0 +1,16 @@
+{
+  "dataset": "gse240704",
+  "full_universe_table": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/d2_d3_probe_signatures/D3_vs_not_D3_all_probes.csv",
+  "focused_hits_table": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/focused_candidate_evidence/focused_candidate_full_universe_hits.csv",
+  "n_focused_probes": 13,
+  "n_background_pool_probes": 4974,
+  "n_matched_sets": 2000,
+  "seed": 123,
+  "strongest_feature_by_p": "has_tfbs",
+  "outputs": {
+    "enrichment_summary_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/matched_background_regulatory_enrichment/matched_background_enrichment_summary.csv",
+    "null_summaries_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/matched_background_regulatory_enrichment/matched_background_null_summaries.csv",
+    "summary_tex": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/matched_background_regulatory_enrichment/tables_tex/table_matched_background_regulatory_enrichment.tex",
+    "plot": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/matched_background_regulatory_enrichment/plots/matched_background_feature_enrichment.png"
+  }
+}

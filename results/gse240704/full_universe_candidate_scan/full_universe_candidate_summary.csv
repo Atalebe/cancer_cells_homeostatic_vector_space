@@ -1,0 +1,12 @@
+candidate_gene,n_probes,directions,best_abs_delta_median,min_q_value_bh,chromosomes,status
+PAX6,5,,0.2470137970417755,0.2510057321425517,11,detected_in_universe_table
+GLI2,3,,0.0479796469514279,0.9426652100192529,2,detected_in_universe_table
+BMP4,2,,0.1205940430676564,0.8516239890009484,14,detected_in_universe_table
+PTCH1,1,,0.1996925271202849,0.3578995331178451,9,detected_in_universe_table
+SHH,1,,0.0784174604423285,0.900705117920004,7,detected_in_universe_table
+OLIG2,1,,0.0161916971206366,0.9621061985209604,21,detected_in_universe_table
+ASCL1,0,,,,,not_detected_in_universe_table
+GLI1,0,,,,,not_detected_in_universe_table
+GLI3,0,,,,,not_detected_in_universe_table
+MYCN,0,,,,,not_detected_in_universe_table
+SOX2,0,,,,,not_detected_in_universe_table

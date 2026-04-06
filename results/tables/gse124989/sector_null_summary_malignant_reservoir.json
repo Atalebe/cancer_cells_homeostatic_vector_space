@@ -1,0 +1,8 @@
+{
+  "dataset_id": "gse124989",
+  "sector": "malignant_reservoir",
+  "n_perm": 200,
+  "top_n": 16,
+  "output_permutations": "results/tables/gse124989/sector_null_permutations_malignant_reservoir.csv",
+  "output_summary": "results/tables/gse124989/sector_null_summary_malignant_reservoir.csv"
+}

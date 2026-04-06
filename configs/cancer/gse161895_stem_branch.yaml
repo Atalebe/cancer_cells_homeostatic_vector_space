@@ -1,0 +1,21 @@
+dataset:
+  dataset_id: gse161895
+  accession: GSE161895
+  source_type: geo
+  title: Distinct stem-like leukemia states with divergent cell-cycle and signaling behavior
+
+paths:
+  raw_dir: data/raw/gse161895
+  processed_dir: data/processed/gse161895
+  metadata_dir: data/metadata/gse161895
+  audit_dir: data/audit_reports/gse161895
+  tables_dir: results/tables/gse161895
+  figures_dir: results/figures/gse161895
+
+download:
+  strategy: geo_series_processed_first
+  expected_files:
+    - series_matrix_or_processed_expression
+    - sample_metadata
+    - supplementary_manifest
+  notes: Use GEO processed files first. Do not depend on SRA for the first pass.

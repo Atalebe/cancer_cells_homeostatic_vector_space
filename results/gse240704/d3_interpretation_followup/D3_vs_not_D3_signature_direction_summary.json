@@ -1,0 +1,13 @@
+{
+  "input_rows": 200,
+  "rows_used": 200,
+  "top_n": 200,
+  "gene_col": null,
+  "feature_col": null,
+  "island_col": null,
+  "chr_col": null,
+  "directions_present": [
+    "higher_in_a",
+    "lower_in_a"
+  ]
+}

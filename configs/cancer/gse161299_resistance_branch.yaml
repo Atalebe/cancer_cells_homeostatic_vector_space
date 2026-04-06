@@ -1,0 +1,21 @@
+dataset:
+  dataset_id: gse161299
+  accession: GSE161299
+  source_type: geo
+  title: Drug-resistant melanoma fates traced back to drug-naive precursors
+
+paths:
+  raw_dir: data/raw/gse161299
+  processed_dir: data/processed/gse161299
+  metadata_dir: data/metadata/gse161299
+  audit_dir: data/audit_reports/gse161299
+  tables_dir: results/tables/gse161299
+  figures_dir: results/figures/gse161299
+
+download:
+  strategy: geo_series_processed_first
+  expected_files:
+    - series_matrix_or_processed_expression
+    - sample_metadata
+    - supplementary_manifest
+  notes: Later resistance branch, not the immediate next move.

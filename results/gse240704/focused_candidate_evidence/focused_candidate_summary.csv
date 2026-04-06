@@ -1,0 +1,7 @@
+candidate_gene,n_probes,best_abs_delta_median,min_q_value_bh,directions,chromosomes,regulatory_feature_groups,tfbs_any,enhancer_any,dnase_any,openchromatin_any
+PAX6,5,0.2470137970417755,0.2510057321425517,,11,,False,False,True,False
+GLI2,3,0.0479796469514279,0.9426652100192529,,2,,False,False,False,False
+BMP4,2,0.1205940430676564,0.8516239890009484,,14,Unclassified_Cell_type_specific,False,False,True,False
+PTCH1,1,0.1996925271202849,0.3578995331178451,,9,,True,False,False,False
+SHH,1,0.0784174604423285,0.900705117920004,,7,,False,False,True,False
+OLIG2,1,0.0161916971206366,0.9621061985209604,,21,Unclassified_Cell_type_specific,True,False,False,True

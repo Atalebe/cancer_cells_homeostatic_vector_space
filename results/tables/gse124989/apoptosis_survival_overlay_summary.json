@@ -1,0 +1,37 @@
+{
+  "dataset_id": "gse124989",
+  "survival_match_report": {
+    "n_requested": 6,
+    "n_matched": 6,
+    "n_missing": 0,
+    "matched_genes": [
+      "BCL2",
+      "BCL2L1",
+      "BIRC3",
+      "CFLAR",
+      "MCL1",
+      "XIAP"
+    ],
+    "missing_genes": []
+  },
+  "apoptosis_match_report": {
+    "n_requested": 7,
+    "n_matched": 7,
+    "n_missing": 0,
+    "matched_genes": [
+      "BAK1",
+      "BAX",
+      "BBC3",
+      "CASP3",
+      "CASP8",
+      "CASP9",
+      "PMAIP1"
+    ],
+    "missing_genes": []
+  },
+  "outputs": {
+    "overlay_table": "results/tables/gse124989/apoptosis_survival_overlay_table.csv",
+    "group_summary": "results/tables/gse124989/apoptosis_survival_overlay_group_summary.csv",
+    "correlations": "results/tables/gse124989/apoptosis_survival_overlay_correlations.csv"
+  }
+}

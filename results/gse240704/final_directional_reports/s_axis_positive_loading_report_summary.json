@@ -1,0 +1,13 @@
+{
+  "input_csv": "results/gse240704/directional_biology_followup/s_axis_top_probe_drivers_with_direction.csv",
+  "direction_col_used": "direction",
+  "gene_col_used": "ucsc_refgene_name",
+  "cpg_col_used": "relation_to_cpg_island",
+  "refgene_col_used": "refgene_group",
+  "weight_col_used": "abs_loading",
+  "positive_label": "positive_loading",
+  "n_rows_input": 100,
+  "n_positive_rows": 99,
+  "n_unique_gene_tokens_positive": 53,
+  "top_n": 40
+}

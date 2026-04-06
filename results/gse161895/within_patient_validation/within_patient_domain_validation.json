@@ -1,0 +1,222 @@
+[
+  {
+    "analysis_block": "all_cells",
+    "metric": "H",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": -2.7936690498010948,
+    "median_b": 0.4982374957986222,
+    "delta_median_a_minus_b": -3.291906545599717,
+    "u_statistic": 119568.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "all_cells",
+    "metric": "S",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": 1.947902126510273,
+    "median_b": -0.2484689777562924,
+    "delta_median_a_minus_b": 2.1963711042665652,
+    "u_statistic": 4861601.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "all_cells",
+    "metric": "M",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": -2.6266349,
+    "median_b": 0.24950562,
+    "delta_median_a_minus_b": -2.87614052,
+    "u_statistic": 15156.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "all_cells",
+    "metric": "R",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": -1.0327336,
+    "median_b": 0.26979056,
+    "delta_median_a_minus_b": -1.30252416,
+    "u_statistic": 401047.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "all_cells",
+    "metric": "phi",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": 4.388376911981904,
+    "median_b": 1.7829609619436375,
+    "delta_median_a_minus_b": 2.6054159500382665,
+    "u_statistic": 4955373.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "patient3_only",
+    "metric": "H",
+    "n_a": 546,
+    "n_b": 933,
+    "median_a": -2.2924439593647428,
+    "median_b": 0.7214513397277148,
+    "delta_median_a_minus_b": -3.0138952990924577,
+    "u_statistic": 10707.0,
+    "p_value": 4.385041029978033e-208
+  },
+  {
+    "analysis_block": "patient3_only",
+    "metric": "S",
+    "n_a": 546,
+    "n_b": 933,
+    "median_a": 1.9492346965923757,
+    "median_b": -0.2701390108271901,
+    "delta_median_a_minus_b": 2.2193737074195656,
+    "u_statistic": 489158.0,
+    "p_value": 2.859792892787025e-192
+  },
+  {
+    "analysis_block": "patient3_only",
+    "metric": "M",
+    "n_a": 546,
+    "n_b": 933,
+    "median_a": -2.5125052500000002,
+    "median_b": 0.3271645,
+    "delta_median_a_minus_b": -2.83966975,
+    "u_statistic": 3251.0,
+    "p_value": 7.264733969055997e-221
+  },
+  {
+    "analysis_block": "patient3_only",
+    "metric": "R",
+    "n_a": 546,
+    "n_b": 933,
+    "median_a": -1.04342,
+    "median_b": -0.036043424,
+    "delta_median_a_minus_b": -1.007376576,
+    "u_statistic": 27488.0,
+    "p_value": 1.0070837694861977e-180
+  },
+  {
+    "analysis_block": "patient3_only",
+    "metric": "phi",
+    "n_a": 546,
+    "n_b": 933,
+    "median_a": 4.165410531789842,
+    "median_b": 1.7574959417623826,
+    "delta_median_a_minus_b": 2.4079145900274597,
+    "u_statistic": 482293.0,
+    "p_value": 2.7025684941451056e-181
+  },
+  {
+    "analysis_block": "excluding_patient3",
+    "metric": "H",
+    "n_a": 692,
+    "n_b": 3232,
+    "median_a": -3.2164421065622912,
+    "median_b": 0.4503636856478771,
+    "delta_median_a_minus_b": -3.6668057922101682,
+    "u_statistic": 48725.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "excluding_patient3",
+    "metric": "S",
+    "n_a": 692,
+    "n_b": 3232,
+    "median_a": 1.9468428187072089,
+    "median_b": -0.24213619629252114,
+    "delta_median_a_minus_b": 2.18897901499973,
+    "u_statistic": 2077080.0,
+    "p_value": 2.9237604473922957e-275
+  },
+  {
+    "analysis_block": "excluding_patient3",
+    "metric": "M",
+    "n_a": 692,
+    "n_b": 3232,
+    "median_a": -2.7405739000000002,
+    "median_b": 0.238555195,
+    "delta_median_a_minus_b": -2.9791290950000002,
+    "u_statistic": 3658.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "excluding_patient3",
+    "metric": "R",
+    "n_a": 692,
+    "n_b": 3232,
+    "median_a": -1.0096679499999999,
+    "median_b": 0.42109989999999997,
+    "delta_median_a_minus_b": -1.4307678499999998,
+    "u_statistic": 203556.0,
+    "p_value": 1.0169597090022398e-250
+  },
+  {
+    "analysis_block": "excluding_patient3",
+    "metric": "phi",
+    "n_a": 692,
+    "n_b": 3232,
+    "median_a": 4.638333257939496,
+    "median_b": 1.7873835721388405,
+    "delta_median_a_minus_b": 2.8509496858006553,
+    "u_statistic": 2178008.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "patients_only",
+    "metric": "H",
+    "n_a": 1199,
+    "n_b": 3734,
+    "median_a": -2.7899089714320784,
+    "median_b": 0.5025882848708267,
+    "delta_median_a_minus_b": -3.292497256302905,
+    "u_statistic": 107499.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "patients_only",
+    "metric": "S",
+    "n_a": 1199,
+    "n_b": 3734,
+    "median_a": 1.969231041968876,
+    "median_b": -0.2688043495145335,
+    "delta_median_a_minus_b": 2.2380353914834097,
+    "u_statistic": 4248589.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "patients_only",
+    "metric": "M",
+    "n_a": 1199,
+    "n_b": 3734,
+    "median_a": -2.6390033,
+    "median_b": 0.27392105499999997,
+    "delta_median_a_minus_b": -2.9129243550000004,
+    "u_statistic": 13132.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "patients_only",
+    "metric": "R",
+    "n_a": 1199,
+    "n_b": 3734,
+    "median_a": -1.0403926,
+    "median_b": 0.18483083,
+    "delta_median_a_minus_b": -1.2252234299999998,
+    "u_statistic": 360285.0,
+    "p_value": 0.0
+  },
+  {
+    "analysis_block": "patients_only",
+    "metric": "phi",
+    "n_a": 1199,
+    "n_b": 3734,
+    "median_a": 4.393080378881944,
+    "median_b": 1.7329774525185737,
+    "delta_median_a_minus_b": 2.66010292636337,
+    "u_statistic": 4296293.0,
+    "p_value": 0.0
+  }
+]

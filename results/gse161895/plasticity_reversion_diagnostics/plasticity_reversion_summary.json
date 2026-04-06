@@ -1,0 +1,8 @@
+{
+  "n_cells": 5403,
+  "n_donor_like_cells": 470,
+  "outputs": {
+    "per_cell_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/plasticity_reversion_diagnostics/plasticity_reversion_per_cell.csv",
+    "tests_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/plasticity_reversion_diagnostics/plasticity_reversion_domain_tests.csv"
+  }
+}

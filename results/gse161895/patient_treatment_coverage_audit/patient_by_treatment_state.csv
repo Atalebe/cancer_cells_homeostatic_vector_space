@@ -1,0 +1,11 @@
+patient_or_donor_id,treated,untreated
+NormalDonor1,0,94
+NormalDonor2,0,94
+NormalDonor3,0,94
+NormalDonor4,0,94
+NormalDonor5,0,94
+Patient1,0,605
+Patient2,0,793
+Patient3,610,869
+Patient4,294,667
+Patient5,529,566

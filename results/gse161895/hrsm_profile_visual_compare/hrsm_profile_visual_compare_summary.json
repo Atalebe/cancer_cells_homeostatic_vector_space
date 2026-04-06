@@ -1,0 +1,15 @@
+{
+  "state_domain_source": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/state_domains/state_domains.parquet",
+  "groups_written": [
+    "D2_1 treated",
+    "D2_1 untreated",
+    "D2_2 immune-like",
+    "Normal donors"
+  ],
+  "n_groups": 4,
+  "outputs": {
+    "summary_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/hrsm_profile_visual_compare/hrsm_profile_group_summary.csv",
+    "long_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/hrsm_profile_visual_compare/hrsm_profile_long.csv",
+    "boxplot": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/hrsm_profile_visual_compare/plots/hrsm_profile_boxplot_by_group.png"
+  }
+}

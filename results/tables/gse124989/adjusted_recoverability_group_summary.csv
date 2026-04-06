@@ -1,0 +1,4 @@
+population_label,R_mean,R_median,R_std,R_adjusted_mean,R_adjusted_median,R_adjusted_std,metabolic_balance_score_mean,metabolic_balance_score_median,metabolic_balance_score_std,glycolysis_score_mean,glycolysis_score_median,glycolysis_score_std,oxphos_score_mean,oxphos_score_median,oxphos_score_std,H_mean,H_median,H_std,M_mean,M_median,M_std
+G1,1.3231,1.4641,0.8756,1.3241,1.3318,1.0236,-0.0941,-0.1977,0.4976,-0.2298,-0.2223,0.5242,-0.1357,0.0749,0.7095,-1.0076,-0.9309,0.6214,-0.6745,-0.6745,0.0
+PKH26_High,-0.6078,-0.6283,0.6296,-0.6002,-0.5047,0.7445,0.3754,0.4374,0.5853,-0.1255,-0.1297,0.7049,-0.5009,-0.552,0.7947,0.7261,0.7694,0.7489,0.6745,0.6745,0.0
+PKH26_Low,0.1032,0.1377,0.6485,0.0572,0.0,0.78,0.1498,0.1712,0.5075,-0.1883,-0.2891,0.7855,-0.3382,-0.1927,0.7365,-0.1998,-0.1255,0.6409,0.0,0.0,0.0

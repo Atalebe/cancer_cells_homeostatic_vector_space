@@ -1,0 +1,13 @@
+{
+  "n_total_samples": 363,
+  "n_stable_shell_samples": 3,
+  "n_irreversible_shell_samples": 0,
+  "stable_shell_flag_column": "candidate_stable_shell",
+  "irreversible_shell_flag_column": "candidate_irreversible_shell",
+  "stable_shell_sample_ids": [
+    "SAMPLE 24",
+    "SAMPLE 35",
+    "SAMPLE 341"
+  ],
+  "irreversible_shell_sample_ids": []
+}

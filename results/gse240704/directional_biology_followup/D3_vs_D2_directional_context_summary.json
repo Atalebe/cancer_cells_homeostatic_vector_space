@@ -1,0 +1,38 @@
+{
+  "input_csv": "results/gse240704/directional_biology_followup/D3_vs_D2_top_200_probes_with_direction.csv",
+  "label": "D3_vs_D2",
+  "direction_col_used": "direction",
+  "n_rows_input": 200,
+  "feature_outputs": {
+    "refgene_group": {
+      "column_used": "refgene_group",
+      "n_non_empty": 117,
+      "n_unique_non_empty": 20,
+      "output_csv": "results/gse240704/directional_biology_followup/D3_vs_D2_refgene_group_by_direction.csv"
+    },
+    "relation_to_cpg_island": {
+      "column_used": "relation_to_cpg_island",
+      "n_non_empty": 71,
+      "n_unique_non_empty": 5,
+      "output_csv": "results/gse240704/directional_biology_followup/D3_vs_D2_relation_to_cpg_island_by_direction.csv"
+    },
+    "regulatory_feature_group": {
+      "column_used": "regulatory_feature_group",
+      "n_non_empty": 14,
+      "n_unique_non_empty": 4,
+      "output_csv": "results/gse240704/directional_biology_followup/D3_vs_D2_regulatory_feature_group_by_direction.csv"
+    },
+    "regulatory_feature_name": {
+      "column_used": "regulatory_feature_name",
+      "n_non_empty": 14,
+      "n_unique_non_empty": 13,
+      "output_csv": "results/gse240704/directional_biology_followup/D3_vs_D2_regulatory_feature_name_by_direction.csv"
+    },
+    "hmm_island": {
+      "column_used": "hmm_island",
+      "n_non_empty": 71,
+      "n_unique_non_empty": 64,
+      "output_csv": "results/gse240704/directional_biology_followup/D3_vs_D2_hmm_island_by_direction.csv"
+    }
+  }
+}

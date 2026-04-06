@@ -1,0 +1,7 @@
+branch_sector,gene_log1p_expr,H,S,M,R,candidate_core_score
+unstable_committed_malignant,5.3821,0.9758,-0.5422,0.5733,-0.8551,0.1241
+malignant_reservoir,5.164,0.6683,0.4898,0.4399,-0.6774,0.263
+transitional_intermediate,3.915,-0.0718,0.3161,0.0,0.3299,-0.1543
+mixed_sector,3.7793,-0.3296,-0.1605,0.2182,0.0148,-0.3745
+recoverable_reference,2.1928,-1.4323,-0.4154,-0.6745,1.2142,-0.8063
+stable_recoverable,2.0567,-0.8853,1.8174,-0.6745,1.6604,-1.5811

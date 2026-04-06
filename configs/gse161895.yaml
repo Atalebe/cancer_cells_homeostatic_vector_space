@@ -1,0 +1,53 @@
+dataset_id: gse161895
+dataset_title: "Single cell RNA-seq reveals developmental plasticity with coexisting oncogenic states and immune evasion programs in ETP-ALL"
+species: homo_sapiens
+modality: scrna_seq
+branch_type: malignant_progression_plasticity
+raw_dir: data/raw/gse161895
+metadata_dir: data/metadata/gse161895
+processed_dir: data/processed/gse161895
+results_dir: results/gse161895
+figures_dir: results/figures/gse161895
+tables_dir: results/tables/gse161895
+
+geo:
+  series_accession: GSE161895
+  superseries_accession: GSE161901
+  geo_url: "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161895"
+
+download:
+  use_family_soft_first: true
+  download_series_matrix_if_available: true
+  expected_public_raw_absence: true
+
+filters:
+  min_detected_genes_per_cell: 300
+  min_total_counts_per_cell: 500
+  min_cells_per_gene: 10
+  max_mito_fraction: 0.25
+  max_ribo_fraction: 0.60
+
+normalization:
+  log1p_scale_factor: 10000.0
+  n_hvg: 3000
+  n_pcs: 30
+
+hrsm:
+  h_mode: reserve_plasticity
+  s_mode: local_coherence
+  m_mode: pseudotime_or_state_order
+  r_mode: residual_recoverability
+
+knn:
+  k_stability_default: 12
+  k_stability_scan: [8, 10, 12, 15]
+
+candidate_core:
+  overlap_min_lists: 3
+  top_n_rankings: 200
+
+plots:
+  point_size: 10
+  alpha: 0.7
+
+seed: 123

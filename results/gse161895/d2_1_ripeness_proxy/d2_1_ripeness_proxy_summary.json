@@ -1,0 +1,11 @@
+{
+  "definition": "rank-based internal proxy = mean(rank(H), rank(M), rank(phi), 1-rank(R)) within D2_1",
+  "treated_n": 387,
+  "untreated_n": 1258,
+  "median_treated": 0.3811550151975684,
+  "median_untreated": 0.48434650455927053,
+  "delta_median_treated_minus_untreated": -0.10319148936170214,
+  "u_statistic": 187458.0,
+  "p_value": 7.46520122929416e-12,
+  "note": "This is an internal state-ripeness sensitivity analysis, not chronological age."
+}

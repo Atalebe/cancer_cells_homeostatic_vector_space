@@ -1,0 +1,3 @@
+gene,chromosome,locus_start,locus_end,window_bp_each_side,n_window_probes,n_direct_gene_token_hits
+ERG,21,39800000,40300000,2000000,11,0
+RUNX1,21,36150000,36450000,2000000,11,0

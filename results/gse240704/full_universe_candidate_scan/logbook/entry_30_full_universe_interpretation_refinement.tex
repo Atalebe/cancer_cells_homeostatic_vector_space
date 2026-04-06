@@ -1,0 +1,28 @@
+\subsection*{Logbook Entry 30: Refinement of the SIM2 bridge interpretation after the full-universe candidate scan}
+
+\textbf{What was being measured.}
+The aim was to determine whether the earlier absence of Hedgehog-linked and stemness-linked genes from the exported directional highlight table reflected true broader absence in the D3 versus not-D3 methylation comparison, or only absence from the shortlist.
+
+\textbf{Methods.}
+A broader candidate scan was performed using the full D3 versus not-D3 probe universe table
+\texttt{results/gse240704/d2\_d3\_probe\_signatures/D3\_vs\_not\_D3\_all\_probes.csv},
+merged with the manifest-derived probe annotation table
+\texttt{results/gse240704/manual\_manifest\_annotation/gpl23976\_annotation\_from\_manifest.parquet}.
+Candidate genes included PTCH1, GLI1, GLI2, GLI3, SHH, SOX2, OLIG2, BMP4, PAX6, ASCL1, and MYCN. Probe-level overlaps were summarized by detected probe count, best absolute median difference, chromosome, and minimum adjusted \(q\)-value where available.
+
+\textbf{Results.}
+The broader universe scan detected 6 of 11 tested candidate genes: PAX6, GLI2, BMP4, PTCH1, SHH, and OLIG2. PAX6 showed the strongest support among this set, with 5 probes and best absolute median difference 0.2470. GLI2 was detected by 3 probes, BMP4 by 2 probes, and PTCH1, SHH, and OLIG2 by 1 probe each. The remaining candidates ASCL1, GLI1, GLI3, MYCN, and SOX2 were not detected in the same universe table. Compared with the earlier shortlist-based bridge check, this demonstrates that the broader D3 versus not-D3 methylation universe does contain additional developmental and Hedgehog-adjacent candidate support that was not visible in the exported directional highlight layer alone.
+
+\textbf{Interpretation.}
+This result refines the emerging picture of the D3 methylation state. The strongest local result remains the compact SIM2-centered 21q methylation neighborhood. However, that local signature is not entirely isolated. The broader probe universe contains detectable, though uneven and generally modest, methylation support involving PTCH1, GLI2, SHH, BMP4, PAX6, and OLIG2. The evidence therefore supports a SIM2-centered local signature embedded in a wider developmental or Hedgehog-adjacent backdrop, rather than a purely isolated chromosome-21q event. At the same time, the modest effect sizes and weak adjusted significance for several of these candidates argue against framing D3 as a strong or unified Hedgehog-defined methylation program.
+
+\textbf{Tables written.}
+\texttt{results/gse240704/full\_universe\_candidate\_scan/full\_universe\_candidate\_hits.csv}\\
+\texttt{results/gse240704/full\_universe\_candidate\_scan/full\_universe\_candidate\_summary.csv}\\
+\texttt{results/gse240704/full\_universe\_candidate\_scan/tables\_tex/table\_full\_universe\_candidate\_scan.tex}
+
+\textbf{Figures.}
+\texttt{results/gse240704/full\_universe\_candidate\_scan/plots/full\_universe\_candidate\_support.png}
+
+\textbf{Next steps.}
+The next step is to stratify the detected broader candidate genes by strength and relevance, distinguishing the compact SIM2-local signal from the weaker distributed developmental backdrop. A useful immediate follow up would be to extract the full probe-level rows for PTCH1, GLI2, SHH, BMP4, PAX6, and OLIG2 and compare their directions, effect sizes, and genomic contexts side by side in a manuscript-ready candidate summary table.

@@ -1,0 +1,2 @@
+n_sim2_probes,min_position,max_position,span_bp,median_position,mean_position,nearest_neighbor_bp_median,nearest_neighbor_bp_max,sorted_positions,adjacent_gaps_bp
+10,38076869,38082613,5744,38077635.0,38079049.0,389.0,3021,"[38076869.0, 38077258.0, 38077270.0, 38077347.0, 38077597.0, 38077673.0, 38080694.0, 38081193.0, 38081976.0, 38082613.0]","[389, 12, 77, 250, 76, 3021, 499, 783, 637]"

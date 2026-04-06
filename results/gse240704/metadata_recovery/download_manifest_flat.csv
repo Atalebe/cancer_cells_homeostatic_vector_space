@@ -1,0 +1,12 @@
+key,value
+dataset_id,gse240704
+accession,GSE240704
+series_url,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE240704
+supplementary_url,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240704/suppl/
+series_html,data/raw/gse240704/geo_series_page.html
+supplementary_index_html,data/raw/gse240704/geo_supplementary_index.html
+supplementary_links[0],https://www.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240704/
+supplementary_links[1],https://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240704/suppl/GSE240704_Matrix_non-normalized.txt.gz
+supplementary_links[2],https://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240704/suppl/GSE240704_Matrix_normalized.txt.gz
+supplementary_links[3],https://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240704/suppl/GSE240704_RAW.tar
+supplementary_links[4],https://ftp.ncbi.nlm.nih.gov/geo/series/GSE240nnn/GSE240704/suppl/filelist.txt

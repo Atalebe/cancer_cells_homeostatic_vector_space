@@ -1,0 +1,50 @@
+[
+  {
+    "metric": "bcell_lymphoid_like_score",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": -0.44429106090960147,
+    "median_b": 0.1452456692102518,
+    "delta_median_a_minus_b": -0.5895367301198533,
+    "u_statistic": 1733239.0,
+    "p_value": 2.840095415658848e-20
+  },
+  {
+    "metric": "antigen_presentation_score",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 0.4355072517569766,
+    "median_b": -0.3693016908965431,
+    "delta_median_a_minus_b": 0.8048089426535197,
+    "u_statistic": 3047752.0,
+    "p_value": 1.0960789786868207e-145
+  },
+  {
+    "metric": "stress_immediate_early_score",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 0.3795384671133984,
+    "median_b": -0.3168137755691738,
+    "delta_median_a_minus_b": 0.6963522426825721,
+    "u_statistic": 2880633.0,
+    "p_value": 4.420949935461468e-101
+  },
+  {
+    "metric": "malignant_output_core_score",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 0.683174758630457,
+    "median_b": -0.4780297443243485,
+    "delta_median_a_minus_b": 1.1612045029548055,
+    "u_statistic": 3573541.0,
+    "p_value": 0.0
+  }
+]

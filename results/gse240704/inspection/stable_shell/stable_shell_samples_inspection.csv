@@ -1,0 +1,4 @@
+sample_id,phi,H,S,M,R,state_domain,candidate_stable_shell,candidate_irreversible_shell,sample_number,placeholder_condition,placeholder_group,placeholder_batch,placeholder_note
+SAMPLE 24,5.704064226558708,0.74083817,5.46074209834028,1.3410197,-0.6078398,D3,True,False,24,,,,
+SAMPLE 35,5.064037498816922,2.0371885,3.811023969916094,1.0750749,-2.4113584,D2,True,False,35,,,,
+SAMPLE 341,4.647477639921947,0.79190624,4.368883998525338,1.2883768,-0.47420532,D3,True,False,341,,,,

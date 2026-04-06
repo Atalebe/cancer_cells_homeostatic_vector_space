@@ -1,0 +1,82 @@
+[
+  {
+    "metric": "total_counts",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": 8957.5,
+    "median_b": 314443.0,
+    "delta_median_a_minus_b": -305485.5,
+    "u_statistic": 432627.5,
+    "p_value": 0.0
+  },
+  {
+    "metric": "mito_counts",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": 345.5,
+    "median_b": 28560.0,
+    "delta_median_a_minus_b": -28214.5,
+    "u_statistic": 758877.0,
+    "p_value": 0.0
+  },
+  {
+    "metric": "non_mito_counts",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": 4551.5,
+    "median_b": 284746.0,
+    "delta_median_a_minus_b": -280194.5,
+    "u_statistic": 318424.0,
+    "p_value": 0.0
+  },
+  {
+    "metric": "mito_fraction",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": 0.10576972613782218,
+    "median_b": 0.08249391841372797,
+    "delta_median_a_minus_b": 0.02327580772409421,
+    "u_statistic": 2675157.5,
+    "p_value": 0.04406969466111865
+  },
+  {
+    "metric": "antigen_presentation_score",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": -3.657128887708584,
+    "median_b": 0.26571351232076534,
+    "delta_median_a_minus_b": -3.9228424000293494,
+    "u_statistic": 88362.5,
+    "p_value": 0.0
+  },
+  {
+    "metric": "ribosomal_translation_score",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": -3.071696627160315,
+    "median_b": 0.27054777249009354,
+    "delta_median_a_minus_b": -3.3422443996504088,
+    "u_statistic": 103716.5,
+    "p_value": 0.0
+  },
+  {
+    "metric": "housekeeping_output_score",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": -3.3816549734327213,
+    "median_b": 0.2449764906729758,
+    "delta_median_a_minus_b": -3.626631464105697,
+    "u_statistic": 49274.0,
+    "p_value": 0.0
+  },
+  {
+    "metric": "mitochondrial_encoded_score",
+    "n_a": 1238,
+    "n_b": 4165,
+    "median_a": -2.0240169705149706,
+    "median_b": 0.22650758459114848,
+    "delta_median_a_minus_b": -2.2505245551061193,
+    "u_statistic": 758886.0,
+    "p_value": 0.0
+  }
+]

@@ -1,0 +1,6 @@
+url,label,kind,path,path_exists,path_size_bytes,decompressed_path,decompressed_exists,decompressed_size_bytes
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL23976,,accession_html,data/raw/annotations/gpl23976_bundle/GPL23976_accession_page.html,True,164315,,False,
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL23976,GEO Publications,cached,data/raw/annotations/gpl23976_bundle/acc.cgi,True,164315,,False,
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL23976&amp;targ=self&amp;view=brief&amp;form=text,You can also download a list of all accessions here,cached,data/raw/annotations/gpl23976_bundle/acc.cgi,True,164315,,False,
+ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL23nnn/GPL23976/soft/,SOFT formatted family file(s),cached,data/raw/annotations/gpl23976_bundle/soft,True,84,,False,
+ftp://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL23nnn/GPL23976/miniml/,MINiML formatted family file(s),cached,data/raw/annotations/gpl23976_bundle/miniml,True,6037,,False,

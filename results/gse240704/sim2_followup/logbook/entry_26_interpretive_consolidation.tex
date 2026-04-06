@@ -1,0 +1,34 @@
+\subsection*{Logbook Entry 26: Interpretive consolidation of the 21q D3 depletion signal}
+
+\textbf{What was being measured.}
+The aim was to consolidate the biological interpretation of the lower-in-D3 chromosome 21q methylation signal after completion of the locus-window and SIM2 compactness follow up steps.
+
+\textbf{Methods.}
+Results from the earlier 21q locus-window analysis and the SIM2-centered compactness analysis were reviewed jointly. The main inputs were:
+\texttt{results/gse240704/chr21\_locus\_followup/D3\_21q\_probe\_table.csv},
+\texttt{results/gse240704/chr21\_locus\_followup/D3\_21q\_ERG\_probe\_window.csv},
+\texttt{results/gse240704/chr21\_locus\_followup/D3\_21q\_RUNX1\_probe\_window.csv},
+\texttt{results/gse240704/sim2\_followup/D3\_21q\_unique\_probe\_gene\_summary.csv}, and
+\texttt{results/gse240704/sim2\_followup/D3\_21q\_SIM2\_compactness\_summary.csv}.
+Interpretation was restricted to observed probe localization, annotation support, and compactness statistics, without extending into mechanistic claims not yet tested.
+
+\textbf{Results.}
+The lower-in-D3 chromosome 21q signal can now be interpreted more specifically than before. Earlier locus-window analysis showed no direct probe annotation support for ERG or RUNX1. The SIM2 follow up then showed that 10 of 11 lower-in-D3 21q probes map uniquely to SIM2, while the remaining probe is unannotated. The SIM2-annotated probes occupy a compact interval from 38076869 to 38082613 on chromosome 21, spanning only 5744 bp. This result demonstrates that the earlier 21q arm-level enrichment is not best understood as a diffuse chromosome-arm effect. Instead, it is driven by a narrow SIM2-associated methylation neighborhood.
+
+\textbf{Interpretation.}
+The appropriate language for the manuscript should now shift from a broad 21q depletion signal to a compact SIM2-centered 21q methylation signature. This remains an annotation-based interpretation rather than a mechanistic conclusion. No causal role of SIM2 in establishing the D3 state has yet been demonstrated. However, the locus-level evidence is now strong enough to justify discussing SIM2 as the main local anchor of the 21q depletion pattern in this dataset branch.
+
+\textbf{Tables written.}
+\texttt{results/gse240704/chr21\_locus\_followup/D3\_21q\_locus\_compact\_summary.csv}\\
+\texttt{results/gse240704/sim2\_followup/D3\_21q\_unique\_probe\_gene\_summary.csv}\\
+\texttt{results/gse240704/sim2\_followup/D3\_21q\_SIM2\_compactness\_summary.csv}
+
+\textbf{Figures.}
+\texttt{results/gse240704/chr21\_locus\_followup/plots/D3\_21q\_ERG\_probe\_window.png}\\
+\texttt{results/gse240704/chr21\_locus\_followup/plots/D3\_21q\_RUNX1\_probe\_window.png}\\
+\texttt{results/gse240704/sim2\_followup/plots/D3\_21q\_SIM2\_probe\_positions.png}\\
+\texttt{results/gse240704/sim2\_followup/plots/D3\_21q\_SIM2\_ranked\_abs\_effect.png}\\
+\texttt{results/gse240704/sim2\_followup/plots/D3\_21q\_all\_probe\_positions.png}
+
+\textbf{Next steps.}
+The next step is to connect the SIM2-centered 21q methylation signature to the broader D3 biological architecture, especially by testing overlap or thematic continuity with the earlier S-axis biology and with developmental or lineage-related candidate programs. A useful next analysis would compare the SIM2-centered interpretation against the previously identified positive S-axis loading genes, including PTCH1, to determine whether the D3 methylation signature sits within a larger developmental pattern rather than an isolated locus effect.

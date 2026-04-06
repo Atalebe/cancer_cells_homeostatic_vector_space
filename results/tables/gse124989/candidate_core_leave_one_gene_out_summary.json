@@ -1,0 +1,6 @@
+{
+  "dataset_id": "gse124989",
+  "top_n": 16,
+  "n_genes_tested": 16,
+  "output_file": "results/tables/gse124989/candidate_core_leave_one_gene_out.csv"
+}

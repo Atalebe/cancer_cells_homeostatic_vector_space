@@ -1,0 +1,28 @@
+\subsection*{Logbook Entry 36: External recurrent TF closing pass and mutation cross-reference}
+
+\textbf{What was being measured.}
+A final external closing pass was performed to identify recurrent transcription-factor names across the PTCH1, OLIG2, SIM2, and PAX6 regulatory intervals, and to determine whether those recurrent factors themselves could be cross-referenced against any mutation or variant tables present in the repo.
+
+\textbf{Methods.}
+The UCSC hg19 ENCODE TFBS clustered overlap summary was parsed across the four queried intervals. TF names were aggregated by interval, total count, and number of queried intervals in which they appeared. The recurrent TF candidates were then cross-referenced against any repo-local mutation-like tables discovered under the project data and results paths, including files with names suggestive of mutation, variant, MAF, VCF, SNV, or indel content. A mutation hit was defined as a row in such a table whose gene column matched one of the recurrent TF names.
+
+\textbf{Results.}
+The recurrent external TF candidates across the queried intervals were led by: RBBP5, SUZ12, RAD21, CTCF, MAX, EZH2, CTBP2, CHD1, USF1, POLR2A.
+Mutation cross-reference status for this dataset branch was: no\_mutation\_like\_tables\_found\_in\_repo\_paths.
+
+\textbf{Interpretation.}
+This final pass does not by itself establish a master regulator, but it provides a cleaner external recurrence-based view of which regulatory factors repeatedly overlap the SIM2-centered and bridge-associated loci. Mutation cross-reference can strengthen mechanistic interest only if mutation data actually exist in the repo and show corresponding alterations in those same factors. Absence of mutation hits, or complete absence of mutation tables, should not be overinterpreted.
+
+\textbf{Tables written.}
+\texttt{results/gse240704/external\_tf\_recurrence\_and\_mutation\_check/external\_recurrent\_tf\_summary.csv}\\
+\texttt{results/gse240704/external\_tf\_recurrence\_and\_mutation\_check/mutation\_candidate\_files.csv}\\
+\texttt{results/gse240704/external\_tf\_recurrence\_and\_mutation\_check/recurrent\_tf\_mutation\_summary.csv}\\
+\texttt{results/gse240704/external\_tf\_recurrence\_and\_mutation\_check/tables\_tex/table\_external\_recurrent\_tf.tex}\\
+\texttt{results/gse240704/external\_tf\_recurrence\_and\_mutation\_check/tables\_tex/table\_external\_recurrent\_tf\_mutation\_check.tex}\\
+\texttt{results/gse240704/external\_tf\_recurrence\_and\_mutation\_check/external\_recurrent\_tf\_summary.json}
+
+\textbf{Figures.}
+\texttt{results/gse240704/external\_tf\_recurrence\_and\_mutation\_check/plots/external\_recurrent\_tf\_rank.png}
+
+\textbf{Next steps.}
+Use the external recurrence results to finalize the mechanistic language for the dataset. If no mutation layer is present or no recurrent-factor mutations are detected, then the correct closing frame remains locus-centric and regulatory-context aware, but not mutation-anchored.

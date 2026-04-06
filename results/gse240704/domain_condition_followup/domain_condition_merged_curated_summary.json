@@ -1,0 +1,14 @@
+{
+  "rows": 363,
+  "columns": 87,
+  "condition_column_used": "placeholder_condition_cur",
+  "axis_column_map": {
+    "H": "H_state",
+    "S": "S_state",
+    "M": "M_state",
+    "R": "R_state",
+    "phi": "phi_state"
+  },
+  "n_state_domain_non_null": 363,
+  "n_stable_shell_true": 3
+}

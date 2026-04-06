@@ -1,0 +1,11 @@
+gene,category,note
+SHH,hedgehog_pathway_seed,developmental signaling context
+GLI2,hedgehog_pathway_seed,transcriptional effector context
+GLI3,hedgehog_pathway_seed,transcriptional effector context
+PTCH1,hedgehog_pathway_seed,relevant because PTCH1 appeared in S-axis positive loading biology
+BMP4,developmental_patterning_seed,developmental transcriptional context
+PAX6,neurodevelopment_seed,developmental context
+ASCL1,neural_lineage_seed,lineage program context
+OLIG2,neural_lineage_seed,gliogenic lineage context
+SOX2,stemness_lineage_seed,state maintenance context
+MYCN,neuro-oncology_seed,oncogenic lineage context

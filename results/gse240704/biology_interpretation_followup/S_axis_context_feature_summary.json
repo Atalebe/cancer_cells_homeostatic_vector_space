@@ -1,0 +1,85 @@
+{
+  "input_csv": "results/gse240704/manifest_reannotated/s_axis_top_probe_drivers_annotated_normalized_annotation.csv",
+  "label": "S_axis",
+  "n_rows_input": 100,
+  "columns_present": [
+    "pc",
+    "rank_by_abs_loading",
+    "ID_REF",
+    "loading",
+    "abs_loading",
+    "ID",
+    "probe_id",
+    "ucsc_refgene_name",
+    "ucsc_refgene_accession",
+    "refgene_group",
+    "cpg_island_name",
+    "relation_to_cpg_island",
+    "regulatory_feature_group",
+    "regulatory_feature_name",
+    "phantom4_enhancers",
+    "hmm_island",
+    "chromosome",
+    "mapinfo",
+    "strand",
+    "design_type",
+    "color_channel",
+    "UCSC_RefGene_Name",
+    "UCSC_RefGene_Accession",
+    "UCSC_RefGene_Group",
+    "UCSC_CpG_Islands_Name",
+    "Relation_to_UCSC_CpG_Island"
+  ],
+  "feature_outputs": {
+    "refgene_group": {
+      "column_used": "refgene_group",
+      "n_non_empty": 62,
+      "n_unique_non_empty": 14
+    },
+    "ucsc_refgene_name": {
+      "column_used": "ucsc_refgene_name",
+      "n_non_empty": 62,
+      "n_unique_non_empty": 55
+    },
+    "ucsc_refgene_accession": {
+      "column_used": "ucsc_refgene_accession",
+      "n_non_empty": 62,
+      "n_unique_non_empty": 55
+    },
+    "cpg_island_name": {
+      "column_used": "cpg_island_name",
+      "n_non_empty": 32,
+      "n_unique_non_empty": 29
+    },
+    "relation_to_cpg_island": {
+      "column_used": "relation_to_cpg_island",
+      "n_non_empty": 32,
+      "n_unique_non_empty": 5
+    },
+    "regulatory_feature_group": {
+      "column_used": "regulatory_feature_group",
+      "n_non_empty": 10,
+      "n_unique_non_empty": 3
+    },
+    "regulatory_feature_name": {
+      "column_used": "regulatory_feature_name",
+      "n_non_empty": 10,
+      "n_unique_non_empty": 10
+    },
+    "phantom4_enhancers": {
+      "column_used": "phantom4_enhancers",
+      "n_non_empty": 1,
+      "n_unique_non_empty": 1
+    },
+    "hmm_island": {
+      "column_used": "hmm_island",
+      "n_non_empty": 53,
+      "n_unique_non_empty": 49
+    },
+    "chromosome": {
+      "column_used": "chromosome",
+      "n_non_empty": 100,
+      "n_unique_non_empty": 21
+    }
+  }
+}

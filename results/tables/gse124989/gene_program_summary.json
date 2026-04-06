@@ -1,0 +1,44 @@
+{
+  "dataset_id": "gse124989",
+  "n_cells": 121,
+  "n_genes": 59838,
+  "outputs": {
+    "gene_coordinate_correlations": "results/tables/gse124989/gene_coordinate_correlations.csv",
+    "top_coordinate_tables": {
+      "top_positive_H": "results/tables/gse124989/top_positive_genes_corr_H.csv",
+      "top_negative_H": "results/tables/gse124989/top_negative_genes_corr_H.csv",
+      "top_positive_S": "results/tables/gse124989/top_positive_genes_corr_S.csv",
+      "top_negative_S": "results/tables/gse124989/top_negative_genes_corr_S.csv",
+      "top_positive_M": "results/tables/gse124989/top_positive_genes_corr_M.csv",
+      "top_negative_M": "results/tables/gse124989/top_negative_genes_corr_M.csv",
+      "top_positive_R": "results/tables/gse124989/top_positive_genes_corr_R.csv",
+      "top_negative_R": "results/tables/gse124989/top_negative_genes_corr_R.csv"
+    },
+    "sector_tables": {
+      "malignant_reservoir": "results/tables/gse124989/sector_vs_rest_malignant_reservoir.csv",
+      "malignant_reservoir_top_up": "results/tables/gse124989/top_up_genes_malignant_reservoir.csv",
+      "malignant_reservoir_top_down": "results/tables/gse124989/top_down_genes_malignant_reservoir.csv",
+      "unstable_committed_malignant": "results/tables/gse124989/sector_vs_rest_unstable_committed_malignant.csv",
+      "unstable_committed_malignant_top_up": "results/tables/gse124989/top_up_genes_unstable_committed_malignant.csv",
+      "unstable_committed_malignant_top_down": "results/tables/gse124989/top_down_genes_unstable_committed_malignant.csv",
+      "stable_recoverable": "results/tables/gse124989/sector_vs_rest_stable_recoverable.csv",
+      "stable_recoverable_top_up": "results/tables/gse124989/top_up_genes_stable_recoverable.csv",
+      "stable_recoverable_top_down": "results/tables/gse124989/top_down_genes_stable_recoverable.csv",
+      "recoverable_reference": "results/tables/gse124989/sector_vs_rest_recoverable_reference.csv",
+      "recoverable_reference_top_up": "results/tables/gse124989/top_up_genes_recoverable_reference.csv",
+      "recoverable_reference_top_down": "results/tables/gse124989/top_down_genes_recoverable_reference.csv",
+      "transitional_intermediate": "results/tables/gse124989/sector_vs_rest_transitional_intermediate.csv",
+      "transitional_intermediate_top_up": "results/tables/gse124989/top_up_genes_transitional_intermediate.csv",
+      "transitional_intermediate_top_down": "results/tables/gse124989/top_down_genes_transitional_intermediate.csv"
+    },
+    "PKH26_High_vs_G1_gene_contrast": "results/tables/gse124989/PKH26_High_vs_G1_gene_contrast.csv"
+  },
+  "sector_counts": {
+    "mixed_sector": 34,
+    "malignant_reservoir": 23,
+    "unstable_committed_malignant": 20,
+    "stable_recoverable": 19,
+    "transitional_intermediate": 17,
+    "recoverable_reference": 8
+  }
+}

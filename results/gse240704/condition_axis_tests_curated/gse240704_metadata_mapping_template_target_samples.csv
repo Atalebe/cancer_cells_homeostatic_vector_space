@@ -1,0 +1,4 @@
+sample_id,sample_number,biological_condition,placeholder_condition,tumor_status
+SAMPLE 24,24,mgmt_methylated,mgmt_methylated,methylated
+SAMPLE 35,35,mgmt_methylated,mgmt_methylated,methylated
+SAMPLE 341,341,,,

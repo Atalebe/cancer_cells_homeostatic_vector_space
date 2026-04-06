@@ -1,0 +1,27 @@
+{
+  "dataset_id": "gse124989",
+  "regressors_used": [
+    "glycolysis_score",
+    "oxphos_score",
+    "metabolic_balance_score"
+  ],
+  "outputs": {
+    "table": "results/tables/gse124989/adjusted_recoverability_table.csv",
+    "group_summary": "results/tables/gse124989/adjusted_recoverability_group_summary.csv",
+    "correlations": "results/tables/gse124989/adjusted_recoverability_correlations.csv"
+  },
+  "group_means": {
+    "G1": {
+      "R": 1.3231,
+      "R_adjusted": 1.3241
+    },
+    "PKH26_High": {
+      "R": -0.6078,
+      "R_adjusted": -0.6002
+    },
+    "PKH26_Low": {
+      "R": 0.1032,
+      "R_adjusted": 0.0572
+    }
+  }
+}

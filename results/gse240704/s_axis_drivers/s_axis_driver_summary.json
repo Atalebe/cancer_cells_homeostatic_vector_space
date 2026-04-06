@@ -1,0 +1,8 @@
+{
+  "best_pc_for_S": "PC2",
+  "corr_with_S": 0.125116001060674,
+  "abs_corr_with_S": 0.125116001060674,
+  "top_n": 200,
+  "annotation_probe_col": "ID",
+  "n_annotated_rows": 100
+}

@@ -1,0 +1,17 @@
+gene,n_lists_present,present_in_lists,rank_positive_H,rank_negative_R,rank_malignant_reservoir,rank_unstable_committed_malignant,rank_PKH26_High_vs_G1,mean_rank_across_present_lists,priority_score
+SLCO4A1,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,3,7,,3,4.333333333333333,2995.6666666666665
+MARCKSL1,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,8,2,,9,6.333333333333333,2993.6666666666665
+LGALS3BP,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,5,16,,2,7.666666666666667,2992.3333333333335
+ABR,3,negative_R;unstable_committed_malignant;PKH26_High_vs_G1,,22,,1,6,9.666666666666666,2990.3333333333335
+GALNT10,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,28,4,,4,12.0,2988.0
+COL6A1,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,1,35,,1,12.333333333333334,2987.6666666666665
+GSN,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,37,5,,5,15.666666666666666,2984.3333333333335
+FN1,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,6,36,,7,16.333333333333332,2983.6666666666665
+ABCC3,3,negative_R;unstable_committed_malignant;PKH26_High_vs_G1,,18,,7,26,17.0,2983.0
+DDX17,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,31,17,,18,22.0,2978.0
+TMEM131,3,negative_R;unstable_committed_malignant;PKH26_High_vs_G1,,30,,14,31,25.0,2975.0
+MAGI1,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,34,40,,19,31.0,2969.0
+ESYT2,3,negative_R;unstable_committed_malignant;PKH26_High_vs_G1,,23,,41,37,33.666666666666664,2966.3333333333335
+GALNT5,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,33,20,,50,34.333333333333336,2965.6666666666665
+NET1,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,41,44,,20,35.0,2965.0
+ARL4C,3,negative_R;malignant_reservoir;PKH26_High_vs_G1,,44,41,,38,41.0,2959.0

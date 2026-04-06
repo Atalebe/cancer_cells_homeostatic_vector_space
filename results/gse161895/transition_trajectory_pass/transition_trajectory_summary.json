@@ -1,0 +1,15 @@
+{
+  "trajectory_order": [
+    "Donor",
+    "D2_2",
+    "D2_1",
+    "D1"
+  ],
+  "n_cells": 5403,
+  "n_usable_cells": 5403,
+  "outputs": {
+    "centroids_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/transition_trajectory_pass/trajectory_centroids.csv",
+    "per_cell_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/transition_trajectory_pass/trajectory_per_cell.csv",
+    "tests_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/transition_trajectory_pass/trajectory_group_tests.csv"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dataset": "gse240704",
+  "direction_filter": "lower_in_a",
+  "n_lower_in_a_total": 44,
+  "n_chr21_lower_in_a": 11,
+  "n_chr21q_lower_in_a": 11,
+  "directional_table": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/directional_biology_followup/D3_vs_not_D3_top_200_probes_with_direction.csv",
+  "manifest_table": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/manual_manifest_annotation/gpl23976_annotation_from_manifest.parquet",
+  "centromere_table": "/home/satal/cancer_cells_hrsm_sims/data/reference/cytoband/hg19_centromere_breakpoints.csv",
+  "selected_columns": {
+    "direction": "direction",
+    "chromosome": "chromosome_ann",
+    "position": "mapinfo_ann",
+    "gene": "ucsc_refgene_name_ann",
+    "refgene_group": "refgene_group_ann",
+    "cpg_island_relation": "relation_to_cpg_island_ann",
+    "effect": "delta_median_a_minus_b"
+  },
+  "outputs": {
+    "probe_table": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/chr21_locus_followup/D3_21q_probe_table.csv",
+    "gene_token_counts": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/chr21_locus_followup/D3_21q_gene_token_counts.csv",
+    "locus_compact_summary": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/chr21_locus_followup/D3_21q_locus_compact_summary.csv",
+    "erg_window": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/chr21_locus_followup/D3_21q_ERG_probe_window.csv",
+    "runx1_window": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/chr21_locus_followup/D3_21q_RUNX1_probe_window.csv"
+  },
+  "context_summary": {
+    "refgene_group_counts": {
+      "Body;Body": 10,
+      "NA": 1
+    },
+    "cpg_island_relation_counts": {
+      "Island": 8,
+      "S_Shore": 2,
+      "N_Shore": 1
+    }
+  },
+  "locus_summary_rows": [
+    {
+      "gene": "ERG",
+      "chromosome": "21",
+      "locus_start": 39800000,
+      "locus_end": 40300000,
+      "window_bp_each_side": 2000000,
+      "n_window_probes": 11,
+      "n_direct_gene_token_hits": 0
+    },
+    {
+      "gene": "RUNX1",
+      "chromosome": "21",
+      "locus_start": 36150000,
+      "locus_end": 36450000,
+      "window_bp_each_side": 2000000,
+      "n_window_probes": 11,
+      "n_direct_gene_token_hits": 0
+    }
+  ]
+}

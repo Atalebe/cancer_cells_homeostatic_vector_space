@@ -1,0 +1,22 @@
+H:
+  description: Malignant adaptive depth or reserve
+  weights:
+    stemness_score: 0.6
+    persistence_score: 0.4
+
+S:
+  description: Structural stability or coherence
+  weights:
+    local_label_purity: 0.5
+    centroid_margin: 0.5
+
+M:
+  description: Malignant trajectory commitment or memory
+  weights:
+    pseudotime: 1.0
+
+R:
+  description: Recoverability, not mere proliferation
+  weights:
+    healthy_reference_distance: -0.5
+    stable_corridor_residual: -0.5

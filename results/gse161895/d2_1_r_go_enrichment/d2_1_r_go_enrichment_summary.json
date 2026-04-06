@@ -1,0 +1,12 @@
+{
+  "up_gene_count": 158,
+  "down_gene_count": 967,
+  "up_status": {
+    "status": "ok",
+    "output": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/d2_1_r_go_enrichment/up_go_enrichment_results.csv"
+  },
+  "down_status": {
+    "status": "ok",
+    "output": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/d2_1_r_go_enrichment/down_go_enrichment_results.csv"
+  }
+}

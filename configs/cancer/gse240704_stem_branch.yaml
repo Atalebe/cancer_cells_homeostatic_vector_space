@@ -1,0 +1,21 @@
+dataset:
+  dataset_id: gse240704
+  accession: GSE240704
+  source_type: geo
+  title: High abundance of stem cell-like malignant cells in high-neural glioblastoma
+
+paths:
+  raw_dir: data/raw/gse240704
+  processed_dir: data/processed/gse240704
+  metadata_dir: data/metadata/gse240704
+  audit_dir: data/audit_reports/gse240704
+  tables_dir: results/tables/gse240704
+  figures_dir: results/figures/gse240704
+
+download:
+  strategy: geo_series_processed_first
+  expected_files:
+    - series_matrix_or_processed_expression
+    - sample_metadata
+    - supplementary_manifest
+  notes: Use GEO processed files first. Do not depend on SRA for the first pass.

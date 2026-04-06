@@ -1,0 +1,39 @@
+dataset_id: gse240704
+
+paths:
+  raw_dir: data/raw/gse240704
+  metadata_dir: data/metadata/gse240704
+  processed_dir: data/processed/gse240704
+  validation_dir: results/validation
+  figures_dir: results/figures/gse240704
+  tables_dir: results/tables/gse240704
+
+files:
+  normalized_matrix: data/raw/gse240704/GSE240704_Matrix_normalized.txt.gz
+  non_normalized_matrix: data/raw/gse240704/GSE240704_Matrix_non-normalized.txt.gz
+  filelist: data/raw/gse240704/filelist.txt
+
+qc:
+  detection_pval_threshold: 0.01
+  bad_probe_fraction_warn: 0.05
+  missing_fraction_warn: 0.10
+  min_non_missing_fraction_per_probe: 0.80
+  top_variable_probe_n: 5000
+  pca_components: 10
+  knn_k: 15
+  beta_offset_raw: 100.0
+  beta_clip_eps: 1.0e-6
+
+hrsm:
+  h_mode: pc1
+  m_mode: pc2
+  s_mode: knn_coherence
+  r_mode: residual_recoverability
+
+outputs:
+  sample_registry: data/metadata/gse240704/sample_registry.csv
+  matrix_audit: results/validation/gse240704_matrix_audit.json
+  beta_matrix: data/processed/gse240704/beta_matrix.parquet
+  detection_pval_matrix: data/processed/gse240704/detection_pval_matrix.parquet
+  hrsm_proxy_table: data/processed/gse240704/hrsm_proxy_table.csv
+  state_table: data/processed/gse240704/state_table.parquet

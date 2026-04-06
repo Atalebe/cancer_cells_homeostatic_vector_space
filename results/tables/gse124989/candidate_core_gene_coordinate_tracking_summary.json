@@ -1,0 +1,7 @@
+{
+  "dataset_id": "gse124989",
+  "min_lists": 3,
+  "top_n": 20,
+  "n_rows": 16,
+  "output_file": "results/tables/gse124989/candidate_core_gene_coordinate_tracking.csv"
+}

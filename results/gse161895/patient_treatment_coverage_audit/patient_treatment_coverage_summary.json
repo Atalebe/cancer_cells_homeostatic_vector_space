@@ -1,0 +1,50 @@
+{
+  "n_cells_total": 5403,
+  "n_unique_patients_or_donors": 10,
+  "state_domain_source": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/state_domains/state_domains.parquet",
+  "no_treated_entities": [
+    "NormalDonor1",
+    "NormalDonor2",
+    "NormalDonor3",
+    "NormalDonor4",
+    "NormalDonor5",
+    "Patient1",
+    "Patient2"
+  ],
+  "only_untreated_entities": [
+    "NormalDonor1",
+    "NormalDonor2",
+    "NormalDonor3",
+    "NormalDonor4",
+    "NormalDonor5",
+    "Patient1",
+    "Patient2"
+  ],
+  "patient_treatment_chi2": {
+    "chi2": 1113.664499136701,
+    "p_value": 5.223374861450448e-234,
+    "dof": 9
+  },
+  "sourceclass_treatment_chi2": {
+    "chi2": 184.32592035492044,
+    "p_value": 5.5075294059533926e-42,
+    "dof": 1
+  },
+  "state_domain_treatment_chi2": {
+    "chi2": 11.799932195244939,
+    "p_value": 0.0005923287832640973,
+    "dof": 1
+  },
+  "d2_subdomain_treatment_chi2": {
+    "chi2": 22.87317053804371,
+    "p_value": 1.7305055549960237e-06,
+    "dof": 1
+  },
+  "outputs": {
+    "patient_by_treatment": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/patient_treatment_coverage_audit/patient_by_treatment_state.csv",
+    "source_class_by_treatment": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/patient_treatment_coverage_audit/source_class_by_treatment_state.csv",
+    "state_domain_by_treatment": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/patient_treatment_coverage_audit/state_domain_by_treatment_state.csv",
+    "d2_subdomain_by_treatment": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/patient_treatment_coverage_audit/d2_subdomain_by_treatment_state.csv",
+    "d2_1_patient_by_treatment": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/patient_treatment_coverage_audit/d2_1_patient_by_treatment_state.csv"
+  }
+}

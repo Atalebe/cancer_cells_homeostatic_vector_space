@@ -1,0 +1,34 @@
+\subsection*{Logbook Entry 27: Directional methylation check for Hedgehog- and stemness-linked candidate genes}
+
+\textbf{What was being measured.}
+A candidate-gene overlay was performed to test whether genes related to the SIM2-centered interpretation, especially Hedgehog-linked and stemness-linked genes, were actually represented in the exported D3 versus not-D3 directional methylation signal.
+
+\textbf{Methods.}
+The directional probe table
+\texttt{results/gse240704/directional\_biology\_followup/D3\_vs\_not\_D3\_top\_200\_probes\_with\_direction.csv}
+was merged with the manifest-derived probe annotation table
+\texttt{results/gse240704/manual\_manifest\_annotation/gpl23976\_annotation\_from\_manifest.parquet}.
+Candidate genes included PTCH1, GLI1, GLI2, GLI3, SHH, SOX2, OLIG2, and additional genes from the curated SIM2 seed list. Probe-level overlaps were identified by manifest gene-token matching. A per-gene summary table, a probe-level hit table, a LaTeX table, and a support plot were exported.
+
+\textbf{Results.}
+Within the exported directional methylation table, the following candidate genes were detected: PAX6.
+The following candidates were not detected in the same directional table: ASCL1, BMP4, GLI1, GLI2, GLI3, MYCN, OLIG2, PTCH1, SHH, SOX2.
+This result provides an initial check of whether the SIM2-centered interpretation is accompanied by explicit methylation support for Hedgehog-related or stemness-related genes in the current directional export layer. Because this analysis is restricted to the already exported directional table, absence here should not yet be interpreted as genome-wide absence in the full dataset.
+
+\textbf{Tables written.}
+\texttt{results/gse240704/candidate\_gene\_directional\_check/candidate\_gene\_directional\_hits.csv}\\
+\texttt{results/gse240704/candidate\_gene\_directional\_check/candidate\_gene\_directional\_summary.csv}\\
+\texttt{results/gse240704/candidate\_gene\_directional\_check/tables\_tex/table\_sim2\_candidate\_directional\_check.tex}\\
+\texttt{results/gse240704/candidate\_gene\_directional\_check/candidate\_gene\_directional\_summary.json}
+
+\textbf{Figures.}
+\texttt{results/gse240704/candidate\_gene\_directional\_check/plots/candidate\_gene\_directional\_support.png}
+
+\textbf{Interpretation.}
+This step provides the first bridge between the SIM2-centered 21q methylation neighborhood and the broader developmental or stemness-oriented interpretation layer. Positive detection of candidates such as PTCH1, GLI-family genes, SHH, SOX2, or OLIG2 in the directional probe export would support continuity between the local SIM2 signature and broader developmental programs. Non-detection in this exported directional set does not eliminate such programs from the dataset, but indicates that they are not among the currently exported directional methylation highlights.
+
+\textbf{Caveats.}
+This is a candidate-gene overlay on the exported D3 directional table, not a full probe-universe test across all measured methylation sites. A fuller absence or presence statement would require re-querying the complete D3 versus not-D3 differential table if available.
+
+\textbf{Next steps.}
+If any Hedgehog-linked or stemness-linked candidates are detected, the next step is to compare their directional behavior and effect sizes against the SIM2-centered signal. If none are detected, the next step is to treat the current evidence as SIM2-localized but not yet extended into a broader developmental methylation module, then decide whether a full-universe candidate scan should be run from the complete differential output.

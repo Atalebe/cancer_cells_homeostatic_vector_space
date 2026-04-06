@@ -1,0 +1,7 @@
+{
+  "input_csv": "results/gse240704/manifest_reannotated/D3_vs_not_D3_top_200_probes_normalized_annotation.csv",
+  "label": "D3_vs_not_D3",
+  "direction_col_used": null,
+  "n_rows_input": 200,
+  "note": "No direction column present, directional context bias skipped."
+}

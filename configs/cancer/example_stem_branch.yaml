@@ -1,0 +1,58 @@
+dataset:
+  dataset_id: example_cancer_stem_branch
+  accession: TO_BE_FILLED
+  source_type: GEO_OR_OTHER
+  title: Example stem-like versus non-stem malignant branch
+
+branch:
+  name: stem_like_vs_nonstem_malignant
+  group_column: stemness_class
+  target_groups:
+    - stem_like
+    - non_stem_malignant
+
+paths:
+  raw_dir: data/raw/example_cancer_stem_branch
+  processed_dir: data/processed/example_cancer_stem_branch
+  expression_matrix: data/raw/example_cancer_stem_branch/expression_matrix.tsv
+  metadata_file: data/raw/example_cancer_stem_branch/metadata.tsv
+  feature_table: data/processed/master_table.parquet
+  proxy_recipe: configs/cancer/proxy_recipe_default.yaml
+
+expression:
+  barcode_column: cell_barcode
+  gene_id_type: gene_symbol
+  value_type: normalized_expression
+
+metadata:
+  barcode_column: cell_barcode
+  malignant_label_column: malignant_status
+  treatment_column: treatment_status
+  donor_column: donor_id
+
+filters:
+  keep_only_malignant: true
+  min_detected_features: 200
+  min_cells_per_group: 50
+
+proxy_inputs:
+  stemness_score_col: stemness_score
+  reserve_score_col: persistence_score
+  local_purity_col: local_label_purity
+  centroid_margin_col: centroid_margin
+  pseudotime_col: pseudotime
+  reference_distance_col: healthy_reference_distance
+  residual_corridor_col: stable_corridor_residual
+
+validation:
+  check_cell_cycle_overlay: true
+  check_metabolic_overlay: true
+  check_stress_overlay: true
+  check_chromatin_overlay: true
+  check_apoptosis_overlay: true
+
+download:
+  expected_files:
+    - expression_matrix.tsv
+    - metadata.tsv
+  notes: Fill in accession-specific download logic after dataset selection.

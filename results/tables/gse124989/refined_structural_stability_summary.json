@@ -1,0 +1,19 @@
+{
+  "dataset_id": "gse124989",
+  "k_neighbors": 10,
+  "outputs": {
+    "table": "results/tables/gse124989/refined_structural_stability_table.csv",
+    "group_summary": "results/tables/gse124989/refined_structural_stability_group_summary.csv"
+  },
+  "group_means": {
+    "G1": {
+      "S_refined": 1.0832
+    },
+    "PKH26_High": {
+      "S_refined": -0.09
+    },
+    "PKH26_Low": {
+      "S_refined": 0.0709
+    }
+  }
+}

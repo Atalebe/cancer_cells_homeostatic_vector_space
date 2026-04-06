@@ -1,0 +1,4 @@
+shell_sample_id,k,neighbor_median_distance,neighbor_phi_median,neighbor_H_median,neighbor_S_median,neighbor_M_median,neighbor_R_median,neighbor_state_domain_counts_json,neighbor_condition_counts_json
+SAMPLE 24,15,2.779478378857354,4.823397710803521,0.11334803,4.368883998525338,0.28581512,-0.050502725,"{""D1"": 5, ""D2"": 2, ""D3"": 8}","{""mgmt_methylated"": 2, ""mgmt_non_methylated"": 7, ""nan"": 6}"
+SAMPLE 341,15,2.1167587619390122,3.6158797734081487,0.74083817,3.4741641255474414,0.63911617,-0.09226796,"{""D1"": 10, ""D2"": 2, ""D3"": 3}","{""mgmt_methylated"": 4, ""mgmt_non_methylated"": 7, ""nan"": 4}"
+SAMPLE 35,15,2.9287703959231153,3.831571444438893,1.3485974,2.503956040225866,0.41496712,-0.6078398,"{""D1"": 4, ""D2"": 7, ""D3"": 4}","{""mgmt_methylated"": 4, ""mgmt_non_methylated"": 3, ""nan"": 8}"

@@ -1,0 +1,79 @@
+dataset:
+  dataset_id: gse124989
+  accession: GSE124989
+  source_type: geo
+  title: "Single-cell RNA sequencing on breast cancer cells enriched for cancer stem cell properties using functional assays"
+  tumor_type: breast_cancer
+  species: Homo_sapiens
+  assay: scrna_seq
+  branch_target: stem_like_vs_nonstem
+
+paths:
+  raw_dir: data/raw/gse124989
+  processed_dir: data/processed/gse124989
+  metadata_dir: data/metadata/gse124989
+  audit_dir: data/audit_reports/gse124989
+  figures_dir: results/figures/gse124989
+  tables_dir: results/tables/gse124989
+
+download:
+  strategy: geo_series_processed_first
+  expected_files:
+    - series_matrix_or_processed_expression
+    - sample_metadata
+    - supplementary_manifest
+  notes: "Use GEO processed files first. Do not depend on SRA for the first pass."
+
+metadata:
+  sample_column: sample_id
+  cell_id_column: cell_id
+  label_column: population_label
+  expected_populations:
+    - G1
+    - PKH26_High
+    - PKH26_Low
+  label_map:
+    G1: G1
+    "PKH26 High": PKH26_High
+    "PKH26 Low": PKH26_Low
+
+filters:
+  min_genes_per_cell: 200
+  min_cells_per_gene: 3
+  remove_unlabeled: true
+
+proxies:
+  H:
+    method: signature_plus_group_order
+    primary_signal: stemness_or_mammosphere_persistence
+    group_prior_order:
+      G1: 0
+      PKH26_Low: 1
+      PKH26_High: 2
+
+  S:
+    method: knn_coherence_and_centroid_margin
+    n_neighbors: 10
+
+  M:
+    method: ordinal_branch_position
+    order:
+      G1: 0
+      PKH26_Low: 1
+      PKH26_High: 2
+
+  R:
+    method: manifold_residual_inverse
+    baseline_group: G1
+
+overlays:
+  cell_cycle: true
+  metabolic: true
+  chromatin: false
+  oxidative_stress: true
+  apoptosis_survival: true
+
+exports:
+  write_master_table: true
+  write_state_table: true
+  write_summary_tables: true

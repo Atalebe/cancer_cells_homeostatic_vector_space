@@ -1,0 +1,8 @@
+{
+  "contrast_csv": "results/gse240704/d2_d3_probe_signatures/D3_vs_D2_top_200_probes.csv",
+  "annotation_file_used": null,
+  "annotation_rows": 0,
+  "annotation_probe_col": null,
+  "n_contrast_rows": 200,
+  "n_annotated_rows": 0
+}

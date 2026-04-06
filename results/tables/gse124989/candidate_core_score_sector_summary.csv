@@ -1,0 +1,7 @@
+branch_sector,candidate_core_score,H,S,M,R
+malignant_reservoir,0.263,0.6683,0.4898,0.4399,-0.6774
+unstable_committed_malignant,0.1241,0.9758,-0.5422,0.5733,-0.8551
+transitional_intermediate,-0.1543,-0.0718,0.3161,0.0,0.3299
+mixed_sector,-0.3745,-0.3296,-0.1605,0.2182,0.0148
+recoverable_reference,-0.8063,-1.4323,-0.4154,-0.6745,1.2142
+stable_recoverable,-1.5811,-0.8853,1.8174,-0.6745,1.6604

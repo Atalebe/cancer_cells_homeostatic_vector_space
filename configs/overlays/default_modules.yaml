@@ -1,0 +1,14 @@
+overlays:
+  cell_cycle:
+    enabled: true
+    notes: Keep recoverability separate from cycling.
+  metabolic:
+    enabled: true
+    notes: Test for metabolic drift separately.
+  chromatin:
+    enabled: true
+    notes: Interpret as overlay unless a dataset specifically supports direct coordinate use.
+  oxidative_stress:
+    enabled: true
+  apoptosis_survival:
+    enabled: true

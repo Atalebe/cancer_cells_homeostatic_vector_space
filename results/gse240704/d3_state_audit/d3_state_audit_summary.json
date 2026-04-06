@@ -1,0 +1,7 @@
+{
+  "focus": "D3 audit: level vs stochasticity, MGMT enrichment, stable-shell proximity, and local neighborhood position",
+  "n_total_samples": 363,
+  "n_D3": 16,
+  "n_not_D3": 347,
+  "n_D3_stable_shell": 2
+}

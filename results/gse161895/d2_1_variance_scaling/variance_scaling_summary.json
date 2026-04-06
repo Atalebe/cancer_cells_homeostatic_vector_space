@@ -1,0 +1,38 @@
+[
+  {
+    "group": "D2_1_treated",
+    "n_genes_used": 39348,
+    "slope_logvar_vs_logmean": 1.668900846649812,
+    "intercept": 1.909691358702663,
+    "r_value": 0.9875000279863806,
+    "r_squared": 0.9751563052731025,
+    "p_value": 0.0,
+    "stderr": 0.001342923323586068,
+    "mean_log_mean": -0.1523099279883552,
+    "mean_log_var": 1.655501190929725
+  },
+  {
+    "group": "D2_1_untreated",
+    "n_genes_used": 51107,
+    "slope_logvar_vs_logmean": 1.5711016971748655,
+    "intercept": 2.1162604350995524,
+    "r_value": 0.9848256347426978,
+    "r_squared": 0.9698815308463576,
+    "p_value": 0.0,
+    "stderr": 0.0012246999604313736,
+    "mean_log_mean": -0.3055291638133908,
+    "mean_log_var": 1.6362430472959169
+  },
+  {
+    "group": "D2_2_all",
+    "n_genes_used": 51361,
+    "slope_logvar_vs_logmean": 1.656048337017292,
+    "intercept": 2.4034280887765287,
+    "r_value": 0.9865357767070629,
+    "r_squared": 0.9732528387230079,
+    "p_value": 0.0,
+    "stderr": 0.0012114088385109414,
+    "mean_log_mean": -0.8919985750519402,
+    "mean_log_var": 0.926235331939969
+  }
+]

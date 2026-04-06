@@ -1,0 +1,6 @@
+validation:
+  bootstrap_repeats: 200
+  permutation_repeats: 200
+  min_cells_per_group: 50
+  require_gene_overlap_check_after_geometry: true
+  require_cell_cycle_partial_check_for_low_R: true

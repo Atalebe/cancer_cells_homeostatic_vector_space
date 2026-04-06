@@ -1,0 +1,9 @@
+metric,value
+n_samples,363.0
+candidate_stable_shell_n,3.0
+candidate_irreversible_shell_n,0.0
+phi_q90,4.079792702209361
+phi_q95,5.232314792471978
+S_q90,2.6870993135163053
+M_q90,0.920986526
+R_q10,-1.99735964

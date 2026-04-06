@@ -1,0 +1,14 @@
+{
+  "input_csv": "results/gse240704/directional_biology_followup/s_axis_top_probe_drivers_with_direction.csv",
+  "label": "S_axis",
+  "gene_col_used": "ucsc_refgene_name",
+  "direction_col_used": "direction",
+  "weight_col_used": "abs_loading",
+  "n_rows_input": 100,
+  "n_gene_tokens": 91,
+  "n_unique_gene_tokens": 54,
+  "directions_present": [
+    "negative_loading",
+    "positive_loading"
+  ]
+}

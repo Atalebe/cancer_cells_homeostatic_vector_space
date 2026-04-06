@@ -1,0 +1,31 @@
+{
+  "input_csv": "results/gse240704/manifest_reannotated/D2_vs_D1_top_200_probes_normalized_annotation.csv",
+  "label": "D2_vs_D1",
+  "gene_col_used": "ucsc_refgene_name",
+  "direction_col_used": null,
+  "n_rows_input": 200,
+  "n_gene_tokens": 179,
+  "n_unique_gene_tokens": 106,
+  "top_20_gene_tokens": [
+    "HTR4",
+    "NR3C1",
+    "PRKAR1B",
+    "TP63",
+    "TP73",
+    "APOD",
+    "PHACTR2",
+    "STMN1",
+    "C6ORF191",
+    "CACNA1D",
+    "PAX6",
+    "RASSF8",
+    "SLC25A13",
+    "SPINK5",
+    "SSH1",
+    "SYNPO2",
+    "BOLL",
+    "C7ORF58",
+    "CDC42BPG",
+    "COL23A1"
+  ]
+}

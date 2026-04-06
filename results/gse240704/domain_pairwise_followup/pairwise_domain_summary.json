@@ -1,0 +1,16 @@
+{
+  "n_domains": 3,
+  "domains": [
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "n_pairwise_tests": 15,
+  "axis_column_map": {
+    "H": "H_dom",
+    "S": "S_dom",
+    "M": "M_dom",
+    "R": "R_dom",
+    "phi": "phi_dom"
+  }
+}

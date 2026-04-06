@@ -1,0 +1,19 @@
+{
+  "n_genes": 63769,
+  "top_labels": [
+    "CD2",
+    "JCHAIN",
+    "CD3G",
+    "IL7R",
+    "CD3E",
+    "MTCO1P12",
+    "CD84",
+    "RPS4Y1",
+    "MTCO1P40",
+    "PARP8"
+  ],
+  "score_columns_used": [
+    "bridge_score"
+  ],
+  "bridge_column_used": "bridge_score"
+}

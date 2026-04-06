@@ -1,0 +1,98 @@
+[
+  {
+    "metric": "total_counts",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 909125.0,
+    "median_b": 166130.5,
+    "delta_median_a_minus_b": 742994.5,
+    "u_statistic": 3600733.0,
+    "p_value": 0.0
+  },
+  {
+    "metric": "mito_counts",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 72739.0,
+    "median_b": 13595.0,
+    "delta_median_a_minus_b": 59144.0,
+    "u_statistic": 3422032.0,
+    "p_value": 4.2903601288009247e-277
+  },
+  {
+    "metric": "non_mito_counts",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 813515.0,
+    "median_b": 146318.5,
+    "delta_median_a_minus_b": 667196.5,
+    "u_statistic": 3609683.5,
+    "p_value": 0.0
+  },
+  {
+    "metric": "mito_fraction",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 0.08346405162184048,
+    "median_b": 0.08086778255524413,
+    "delta_median_a_minus_b": 0.0025962690665963517,
+    "u_statistic": 2075493.0,
+    "p_value": 0.941320156493196
+  },
+  {
+    "metric": "antigen_presentation_score",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 0.4355072517569766,
+    "median_b": -0.3693016908965431,
+    "delta_median_a_minus_b": 0.8048089426535197,
+    "u_statistic": 3047752.0,
+    "p_value": 1.0960789786868207e-145
+  },
+  {
+    "metric": "ribosomal_translation_score",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 0.6280769636630629,
+    "median_b": -0.46795959142287574,
+    "delta_median_a_minus_b": 1.0960365550859386,
+    "u_statistic": 3420549.0,
+    "p_value": 1.7238138275120963e-276
+  },
+  {
+    "metric": "housekeeping_output_score",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 0.6982471791714596,
+    "median_b": -0.47523128326363223,
+    "delta_median_a_minus_b": 1.1734784624350918,
+    "u_statistic": 3615374.0,
+    "p_value": 0.0
+  },
+  {
+    "metric": "mitochondrial_encoded_score",
+    "group_a": "D2_1",
+    "group_b": "D2_2",
+    "n_a": 1645,
+    "n_b": 2520,
+    "median_a": 0.5936200260122891,
+    "median_b": -0.4710762536484314,
+    "delta_median_a_minus_b": 1.0646962796607204,
+    "u_statistic": 3422025.0,
+    "p_value": 4.3186333012131103e-277
+  }
+]

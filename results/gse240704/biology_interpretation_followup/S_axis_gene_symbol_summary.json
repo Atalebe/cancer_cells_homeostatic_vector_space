@@ -1,0 +1,31 @@
+{
+  "input_csv": "results/gse240704/manifest_reannotated/s_axis_top_probe_drivers_annotated_normalized_annotation.csv",
+  "label": "S_axis",
+  "gene_col_used": "ucsc_refgene_name",
+  "direction_col_used": null,
+  "n_rows_input": 100,
+  "n_gene_tokens": 91,
+  "n_unique_gene_tokens": 54,
+  "top_20_gene_tokens": [
+    "PTCH1",
+    "NR3C1",
+    "PRDM16",
+    "TP73",
+    "PTPRN2",
+    "ACCN1",
+    "APOD",
+    "C7ORF58",
+    "CARD11",
+    "CDC42BPG",
+    "CPVL",
+    "FBLN7",
+    "FHIT",
+    "FOXP1",
+    "GRIN2B",
+    "MBP",
+    "MCF2L",
+    "SIM2",
+    "SSPN",
+    "SYT16"
+  ]
+}

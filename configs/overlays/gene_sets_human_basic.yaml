@@ -1,0 +1,167 @@
+cell_cycle:
+  g1_s:
+    - MCM5
+    - PCNA
+    - TYMS
+    - FEN1
+    - MCM2
+    - MCM4
+    - RRM1
+    - UNG
+    - GINS2
+    - MCM6
+    - CDCA7
+    - DTL
+    - PRIM1
+    - UHRF1
+    - CENPU
+    - HELLS
+    - RFC2
+    - RPA2
+    - NASP
+    - RAD51AP1
+    - GMNN
+    - WDR76
+    - SLBP
+    - CCNE2
+    - UBR7
+    - POLD3
+    - MSH2
+    - ATAD2
+    - RAD51
+    - RRM2
+    - CDC45
+    - CDC6
+    - EXO1
+    - TIPIN
+    - DSCC1
+    - BLM
+    - CASP8AP2
+    - USP1
+    - CLSPN
+    - POLA1
+    - CHAF1B
+    - BRIP1
+    - E2F8
+
+  g2_m:
+    - HMGB2
+    - CDK1
+    - NUSAP1
+    - UBE2C
+    - BIRC5
+    - TPX2
+    - TOP2A
+    - NDC80
+    - CKS2
+    - NUF2
+    - CKS1B
+    - MKI67
+    - TMPO
+    - CENPF
+    - TACC3
+    - FAM64A
+    - SMC4
+    - CCNB2
+    - CKAP2L
+    - CKAP2
+    - AURKB
+    - BUB1
+    - KIF11
+    - ANP32E
+    - TUBB4B
+    - GTSE1
+    - KIF20B
+    - HJURP
+    - CDCA3
+    - CDC20
+    - TTK
+    - CDC25C
+    - KIF2C
+    - RANGAP1
+    - NCAPD2
+    - DLGAP5
+    - CDCA2
+    - CDCA8
+    - ECT2
+    - KIF23
+    - HMMR
+    - AURKA
+    - PSRC1
+    - ANLN
+    - LBR
+    - CKAP5
+    - CENPE
+    - CTCF
+    - NEK2
+    - G2E3
+    - GAS2L3
+    - CBX5
+    - CENPA
+
+metabolic:
+  glycolysis:
+    - HK1
+    - HK2
+    - GPI
+    - PFKL
+    - PFKP
+    - ALDOA
+    - GAPDH
+    - PGK1
+    - PGAM1
+    - ENO1
+    - PKM
+    - LDHA
+    - SLC2A1
+
+  oxphos:
+    - NDUFA1
+    - NDUFA2
+    - NDUFA3
+    - NDUFA4
+    - NDUFB3
+    - NDUFB5
+    - NDUFS1
+    - NDUFS2
+    - UQCRC1
+    - UQCRC2
+    - COX4I1
+    - COX5A
+    - COX6A1
+    - ATP5F1A
+    - ATP5F1B
+    - ATP5MC1
+    - ATP5MC2
+    - ATP5PF
+
+stress:
+  oxidative_stress:
+    - SOD1
+    - SOD2
+    - PRDX1
+    - PRDX2
+    - TXN
+    - TXNRD1
+    - HMOX1
+    - NQO1
+    - GCLC
+    - GCLM
+
+apoptosis_survival:
+  survival:
+    - BCL2
+    - BCL2L1
+    - MCL1
+    - XIAP
+    - CFLAR
+    - BIRC3
+
+  apoptosis:
+    - BAX
+    - BAK1
+    - BBC3
+    - PMAIP1
+    - CASP3
+    - CASP8
+    - CASP9

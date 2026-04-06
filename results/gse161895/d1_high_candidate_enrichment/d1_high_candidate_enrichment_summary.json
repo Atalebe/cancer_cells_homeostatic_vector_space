@@ -1,0 +1,41 @@
+[
+  {
+    "gene_set": "erythrocyte_development_seed",
+    "n_hits_in_d1_high_top200": 2,
+    "hits": "HBA2; HBB",
+    "odds_ratio": 63.35897435897436,
+    "p_value": 0.001439815215865323,
+    "target_size": 197,
+    "gene_set_size_in_universe": 4,
+    "contingency_a_target_and_set": 2,
+    "contingency_b_target_not_set": 195,
+    "contingency_c_background_set": 2,
+    "contingency_d_background_not_set": 12355
+  },
+  {
+    "gene_set": "apoptosis_seed",
+    "n_hits_in_d1_high_top200": 0,
+    "hits": "",
+    "odds_ratio": 0.0,
+    "p_value": 1.0,
+    "target_size": 197,
+    "gene_set_size_in_universe": 14,
+    "contingency_a_target_and_set": 0,
+    "contingency_b_target_not_set": 197,
+    "contingency_c_background_set": 14,
+    "contingency_d_background_not_set": 12343
+  },
+  {
+    "gene_set": "hypoxia_seed",
+    "n_hits_in_d1_high_top200": 0,
+    "hits": "",
+    "odds_ratio": 0.0,
+    "p_value": 1.0,
+    "target_size": 197,
+    "gene_set_size_in_universe": 9,
+    "contingency_a_target_and_set": 0,
+    "contingency_b_target_not_set": 197,
+    "contingency_c_background_set": 9,
+    "contingency_d_background_not_set": 12348
+  }
+]

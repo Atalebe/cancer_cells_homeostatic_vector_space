@@ -1,0 +1,67 @@
+{
+  "annotation_file": "/home/satal/cancer_cells_hrsm_sims/data/reference/annotations/ensembl_gene_annotation.tsv",
+  "high_summary": {
+    "label": "d2_1_high",
+    "n_rows": 200,
+    "n_with_symbol": 198,
+    "n_mito": 10,
+    "n_ribo": 26,
+    "n_hla": 5,
+    "top_gene_symbols_first20": [
+      "MT-RNR2",
+      "MALAT1",
+      "ACTB",
+      "MT-CO1",
+      "EEF1A1",
+      "RPL3",
+      "B2M",
+      "ACTG1",
+      "DDX5",
+      "HSPA8",
+      "RACK1",
+      "MT-CO2",
+      "HSP90AB1",
+      "H3-3B",
+      "RPS4X",
+      "MT-ND4",
+      "MT-CYB",
+      "MT-RNR1",
+      "RPL4",
+      "MT-ND1"
+    ]
+  },
+  "low_summary": {
+    "label": "d2_1_low",
+    "n_rows": 200,
+    "n_with_symbol": 193,
+    "n_mito": 0,
+    "n_ribo": 37,
+    "n_hla": 1,
+    "top_gene_symbols_first20": [
+      "IGHM",
+      "MS4A1",
+      "FCRL3",
+      "THEMIS",
+      "BTLA",
+      "KLRB1",
+      "H4C3",
+      "GZMM",
+      "MIAT",
+      "LINC02446",
+      "NELL2",
+      "RAB30",
+      "LINC00926",
+      "FOXO1",
+      "FCMR",
+      "A2M",
+      "BIRC3",
+      "SKAP1",
+      "GADD45A",
+      "P2RY10"
+    ]
+  },
+  "outputs": {
+    "high_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/d2_marker_annotation/d2_1_high_top200_clean_annotated.csv",
+    "low_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse161895/d2_marker_annotation/d2_1_low_top200_clean_annotated.csv"
+  }
+}

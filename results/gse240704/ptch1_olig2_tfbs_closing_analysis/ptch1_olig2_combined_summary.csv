@@ -1,0 +1,3 @@
+candidate_gene,n_probes,best_abs_delta_median,min_q_value_bh,n_tfbs_annotated_probes,tfbs_entries,named_tf_candidates,all_tfbs_entries_are_coordinates,n_dnase_annotated_probes,n_openchromatin_annotated_probes,regulatory_feature_groups,present_in_top200,n_top200_probes
+PTCH1,1,0.1996925271202849,0.3578995331178451,1,chr9:98220925-98226459,,True,0,0,,False,0
+OLIG2,1,0.0161916971206366,0.9621061985209604,1,chr21:34394319-34400923,,True,0,1,Unclassified_Cell_type_specific,False,0

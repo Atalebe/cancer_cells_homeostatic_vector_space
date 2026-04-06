@@ -1,0 +1,13 @@
+{
+  "input_csv": "results/gse240704/directional_biology_followup/D3_vs_not_D3_top_200_probes_with_direction.csv",
+  "direction_col_used": "direction",
+  "chromosome_col_used": "chromosome",
+  "probe_col_used": "ID_REF",
+  "n_rows_used": 200,
+  "directions_present": [
+    "higher_in_a",
+    "lower_in_a"
+  ],
+  "n_unique_chromosomes": 21,
+  "note": "This is chromosome-level enrichment. Chromosomal-arm enrichment will require cytoband or centromere breakpoint mapping."
+}

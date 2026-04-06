@@ -1,0 +1,4 @@
+population_label,knn_same_label_purity_mean,knn_same_label_purity_median,knn_same_label_purity_std,knn_label_entropy_mean,knn_label_entropy_median,knn_label_entropy_std,centroid_margin_mean,centroid_margin_median,centroid_margin_std,S_refined_mean,S_refined_median,S_refined_std
+G1,0.8467,0.95,0.2113,0.3328,0.1625,0.3909,17.8737,19.269,11.6309,1.0832,1.4911,1.1727
+PKH26_High,0.5652,0.55,0.2415,0.6006,0.6109,0.1703,5.1309,5.4916,7.6695,-0.09,-0.3177,0.6874
+PKH26_Low,0.6467,0.6,0.1902,0.5835,0.6109,0.1676,5.7884,6.1541,7.3294,0.0709,-0.1133,0.6463

@@ -1,0 +1,31 @@
+{
+  "input_csv": "results/gse240704/manifest_reannotated/D3_vs_not_D3_top_200_probes_normalized_annotation.csv",
+  "label": "D3_vs_not_D3",
+  "gene_col_used": "ucsc_refgene_name",
+  "direction_col_used": null,
+  "n_rows_input": 200,
+  "n_gene_tokens": 196,
+  "n_unique_gene_tokens": 106,
+  "top_20_gene_tokens": [
+    "SIM2",
+    "NR3C1",
+    "BTNL8",
+    "MAPT",
+    "HGF",
+    "ANXA2",
+    "ISL2",
+    "PHACTR2",
+    "SLC8A3",
+    "TPO",
+    "GRIN2A",
+    "IRF6",
+    "MAD1L1",
+    "PAX6",
+    "POM121L12",
+    "PPARG",
+    "PTPRN2",
+    "AGAP3",
+    "ANXA7",
+    "CPVL"
+  ]
+}

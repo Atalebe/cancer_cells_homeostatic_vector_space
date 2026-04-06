@@ -1,0 +1,34 @@
+{
+  "dataset_id": "gse124989",
+  "top_n": 20,
+  "min_lists": 3,
+  "n_selected_genes": 16,
+  "selected_genes": [
+    "SLCO4A1",
+    "MARCKSL1",
+    "LGALS3BP",
+    "ABR",
+    "GALNT10",
+    "COL6A1",
+    "GSN",
+    "FN1",
+    "ABCC3",
+    "DDX17",
+    "TMEM131",
+    "MAGI1",
+    "ESYT2",
+    "GALNT5",
+    "NET1",
+    "ARL4C"
+  ],
+  "outputs": {
+    "population_means_csv": "results/tables/gse124989/candidate_core_heatmap_population_means.csv",
+    "population_means_rowz_csv": "results/tables/gse124989/candidate_core_heatmap_population_means_rowz.csv",
+    "sector_means_csv": "results/tables/gse124989/candidate_core_heatmap_sector_means.csv",
+    "sector_means_rowz_csv": "results/tables/gse124989/candidate_core_heatmap_sector_means_rowz.csv",
+    "population_heatmap": "results/figures/gse124989/candidate_core_heatmap_by_population.png",
+    "population_heatmap_rowz": "results/figures/gse124989/candidate_core_heatmap_by_population_rowz.png",
+    "sector_heatmap": "results/figures/gse124989/candidate_core_heatmap_by_sector.png",
+    "sector_heatmap_rowz": "results/figures/gse124989/candidate_core_heatmap_by_sector_rowz.png"
+  }
+}

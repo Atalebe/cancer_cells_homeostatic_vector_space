@@ -1,0 +1,9 @@
+{
+  "domains_present": [
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "n_rows": 363,
+  "focus": "D3_vs_D1_D2_extreme_state_tests"
+}

@@ -1,0 +1,6 @@
+regulatory_feature_group,n,fraction
+Unclassified_Cell_type_specific,13,0.41935483870967744
+Unclassified,9,0.2903225806451613
+Promoter_Associated,7,0.22580645161290322
+NonGene_Associated_Cell_type_specific,1,0.03225806451612903
+Gene_Associated_Cell_type_specific,1,0.03225806451612903

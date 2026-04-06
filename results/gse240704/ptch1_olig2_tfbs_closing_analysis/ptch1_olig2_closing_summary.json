@@ -1,0 +1,41 @@
+{
+  "dataset": "gse240704",
+  "target_genes": [
+    "PTCH1",
+    "OLIG2"
+  ],
+  "master_tf_inference_overall": "tfbs_intervals_without_named_tf_identity",
+  "tfbs_identity_statement": "The PTCH1 and OLIG2 TFBS fields contained interval-style coordinate labels rather than named transcription-factor identities, so this dataset branch does not support nomination of a specific master TF from the current annotation layer.",
+  "named_tf_candidates": [],
+  "ptch1_tfbs_identity": {
+    "candidate_gene": "PTCH1",
+    "n_probes": 1,
+    "n_tfbs_annotated_probes": 1,
+    "tfbs_entries": [
+      "chr9:98220925-98226459"
+    ],
+    "all_tfbs_entries_are_coordinates": true,
+    "named_tf_candidates": [],
+    "master_tf_inference_status": "tfbs_intervals_present_but_no_named_tf_identity"
+  },
+  "olig2_tfbs_identity": {
+    "candidate_gene": "OLIG2",
+    "n_probes": 1,
+    "n_tfbs_annotated_probes": 1,
+    "tfbs_entries": [
+      "chr21:34394319-34400923"
+    ],
+    "all_tfbs_entries_are_coordinates": true,
+    "named_tf_candidates": [],
+    "master_tf_inference_status": "tfbs_intervals_present_but_no_named_tf_identity"
+  },
+  "genes_present_in_top200": [],
+  "matched_background_note": "Strongest matched-background feature was has_tfbs with empirical p=0.2129.",
+  "outputs": {
+    "details_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/ptch1_olig2_tfbs_closing_analysis/ptch1_olig2_full_details.csv",
+    "combined_summary_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/ptch1_olig2_tfbs_closing_analysis/ptch1_olig2_combined_summary.csv",
+    "tfbs_identity_csv": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/ptch1_olig2_tfbs_closing_analysis/ptch1_olig2_tfbs_identity_summary.csv",
+    "summary_tex": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/ptch1_olig2_tfbs_closing_analysis/tables_tex/table_ptch1_olig2_tfbs_closing.tex",
+    "plot": "/home/satal/cancer_cells_hrsm_sims/results/gse240704/ptch1_olig2_tfbs_closing_analysis/plots/ptch1_olig2_best_effect.png"
+  }
+}

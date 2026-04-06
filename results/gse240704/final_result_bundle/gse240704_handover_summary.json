@@ -1,0 +1,392 @@
+{
+  "dataset": "GSE240704",
+  "branch_status": "analysis branch consolidated",
+  "main_claims": [
+    {
+      "claim": "Three unsupervised state domains were identified",
+      "details": [
+        {
+          "state_domain": "D1",
+          "n": 256
+        },
+        {
+          "state_domain": "D2",
+          "n": 91
+        },
+        {
+          "state_domain": "D3",
+          "n": 16
+        }
+      ]
+    },
+    {
+      "claim": "Stable shell contains three samples, two MGMT-methylated and one unresolved",
+      "details": [
+        {
+          "sample_id": "SAMPLE 24",
+          "state_domain": "D3",
+          "placeholder_condition_cur": "mgmt_methylated",
+          "phi": 5.704064226558708,
+          "H": 0.74083817,
+          "S": 5.46074209834028,
+          "M": 1.3410197,
+          "R": -0.6078398
+        },
+        {
+          "sample_id": "SAMPLE 35",
+          "state_domain": "D2",
+          "placeholder_condition_cur": "mgmt_methylated",
+          "phi": 5.064037498816922,
+          "H": 2.0371885,
+          "S": 3.811023969916094,
+          "M": 1.0750749,
+          "R": -2.4113584
+        },
+        {
+          "sample_id": "SAMPLE 341",
+          "state_domain": "D3",
+          "placeholder_condition_cur": NaN,
+          "phi": 4.647477639921947,
+          "H": 0.79190624,
+          "S": 4.368883998525338,
+          "M": 1.2883768,
+          "R": -0.47420532
+        }
+      ]
+    },
+    {
+      "claim": "Curated MGMT comparison shows strongest shifts on H and R, weaker on phi, minimal on S and M",
+      "details": [
+        {
+          "condition_a": "mgmt_methylated",
+          "condition_b": "mgmt_non_methylated",
+          "axis": "H",
+          "n_a": 108,
+          "n_b": 122,
+          "median_a": 0.300945405,
+          "median_b": -0.219269515,
+          "delta_median_a_minus_b": 0.52021492,
+          "u_statistic": 8522.0,
+          "p_value": 0.0001234523868678,
+          "rank_biserial": 0.2935640558591379
+        },
+        {
+          "condition_a": "mgmt_methylated",
+          "condition_b": "mgmt_non_methylated",
+          "axis": "M",
+          "n_a": 108,
+          "n_b": 122,
+          "median_a": 0.142215705,
+          "median_b": 0.0808881375,
+          "delta_median_a_minus_b": 0.0613275674999999,
+          "u_statistic": 6787.0,
+          "p_value": 0.6934757785081664,
+          "rank_biserial": 0.0302064359441409
+        },
+        {
+          "condition_a": "mgmt_methylated",
+          "condition_b": "mgmt_non_methylated",
+          "axis": "R",
+          "n_a": 108,
+          "n_b": 122,
+          "median_a": -0.34530728,
+          "median_b": 0.114849465,
+          "delta_median_a_minus_b": -0.460156745,
+          "u_statistic": 5016.0,
+          "p_value": 0.0018061901925435,
+          "rank_biserial": -0.238615664845173
+        },
+        {
+          "condition_a": "mgmt_methylated",
+          "condition_b": "mgmt_non_methylated",
+          "axis": "S",
+          "n_a": 108,
+          "n_b": 122,
+          "median_a": -0.0661298313195934,
+          "median_b": 0.1268862040455067,
+          "delta_median_a_minus_b": -0.1930160353651001,
+          "u_statistic": 6293.0,
+          "p_value": 0.5587086676086581,
+          "rank_biserial": -0.0447783849423193
+        },
+        {
+          "condition_a": "mgmt_methylated",
+          "condition_b": "mgmt_non_methylated",
+          "axis": "phi",
+          "n_a": 108,
+          "n_b": 122,
+          "median_a": 2.020337981723941,
+          "median_b": 1.6753108299679242,
+          "delta_median_a_minus_b": 0.3450271517560166,
+          "u_statistic": 7485.0,
+          "p_value": 0.075060445876062,
+          "rank_biserial": 0.1361566484517304
+        }
+      ]
+    },
+    {
+      "claim": "D3 has directional genomic structure, especially lower-in-D3 enrichment on 21q and higher-in-D3 enrichment on 7p and 4q",
+      "details": [
+        {
+          "direction": "higher_in_a",
+          "chromosome_arm": "7p",
+          "flag_n": 156,
+          "background_n": 4844,
+          "in_arm_and_flag": 14,
+          "in_arm_and_background": 155,
+          "outside_arm_and_flag": 142,
+          "outside_arm_and_background": 4689,
+          "frac_flag_in_arm": 0.0897435897435897,
+          "frac_background_in_arm": 0.0319983484723369,
+          "fisher_odds_ratio": 2.98255338482508,
+          "fisher_p_value": 0.0007172952101899,
+          "rank_by_p_value": 1
+        },
+        {
+          "direction": "higher_in_a",
+          "chromosome_arm": "4q",
+          "flag_n": 156,
+          "background_n": 4844,
+          "in_arm_and_flag": 14,
+          "in_arm_and_background": 179,
+          "outside_arm_and_flag": 142,
+          "outside_arm_and_background": 4665,
+          "frac_flag_in_arm": 0.0897435897435897,
+          "frac_background_in_arm": 0.0369529314616019,
+          "fisher_odds_ratio": 2.5694389802502164,
+          "fisher_p_value": 0.0025825681324854,
+          "rank_by_p_value": 2
+        },
+        {
+          "direction": "higher_in_a",
+          "chromosome_arm": "1p",
+          "flag_n": 156,
+          "background_n": 4844,
+          "in_arm_and_flag": 3,
+          "in_arm_and_background": 267,
+          "outside_arm_and_flag": 153,
+          "outside_arm_and_background": 4577,
+          "frac_flag_in_arm": 0.0192307692307692,
+          "frac_background_in_arm": 0.0551197357555739,
+          "fisher_odds_ratio": 0.3361239626936917,
+          "fisher_p_value": 0.0472573570006048,
+          "rank_by_p_value": 3
+        },
+        {
+          "direction": "higher_in_a",
+          "chromosome_arm": "11q",
+          "flag_n": 156,
+          "background_n": 4844,
+          "in_arm_and_flag": 6,
+          "in_arm_and_background": 85,
+          "outside_arm_and_flag": 150,
+          "outside_arm_and_background": 4759,
+          "frac_flag_in_arm": 0.0384615384615384,
+          "frac_background_in_arm": 0.0175474814203137,
+          "fisher_odds_ratio": 2.239529411764706,
+          "fisher_p_value": 0.0637322065860222,
+          "rank_by_p_value": 4
+        },
+        {
+          "direction": "higher_in_a",
+          "chromosome_arm": "5p",
+          "flag_n": 156,
+          "background_n": 4844,
+          "in_arm_and_flag": 8,
+          "in_arm_and_background": 129,
+          "outside_arm_and_flag": 148,
+          "outside_arm_and_background": 4715,
+          "frac_flag_in_arm": 0.0512820512820512,
+          "frac_background_in_arm": 0.0266308835672997,
+          "fisher_odds_ratio": 1.9756966268594176,
+          "fisher_p_value": 0.0756096622585541,
+          "rank_by_p_value": 5
+        },
+        {
+          "direction": "lower_in_a",
+          "chromosome_arm": "21q",
+          "flag_n": 44,
+          "background_n": 4956,
+          "in_arm_and_flag": 11,
+          "in_arm_and_background": 37,
+          "outside_arm_and_flag": 33,
+          "outside_arm_and_background": 4919,
+          "frac_flag_in_arm": 0.25,
+          "frac_background_in_arm": 0.0074656981436642,
+          "fisher_odds_ratio": 44.31531531531532,
+          "fisher_p_value": 1.1430409139090618e-13,
+          "rank_by_p_value": 1
+        },
+        {
+          "direction": "lower_in_a",
+          "chromosome_arm": "15q",
+          "flag_n": 44,
+          "background_n": 4956,
+          "in_arm_and_flag": 5,
+          "in_arm_and_background": 156,
+          "outside_arm_and_flag": 39,
+          "outside_arm_and_background": 4800,
+          "frac_flag_in_arm": 0.1136363636363636,
+          "frac_background_in_arm": 0.0314769975786924,
+          "fisher_odds_ratio": 3.9447731755424074,
+          "fisher_p_value": 0.0128148936685358,
+          "rank_by_p_value": 2
+        },
+        {
+          "direction": "lower_in_a",
+          "chromosome_arm": "3q",
+          "flag_n": 44,
+          "background_n": 4956,
+          "in_arm_and_flag": 4,
+          "in_arm_and_background": 143,
+          "outside_arm_and_flag": 40,
+          "outside_arm_and_background": 4813,
+          "frac_flag_in_arm": 0.0909090909090909,
+          "frac_background_in_arm": 0.0288539144471347,
+          "fisher_odds_ratio": 3.365734265734266,
+          "fisher_p_value": 0.0392099179640862,
+          "rank_by_p_value": 3
+        },
+        {
+          "direction": "lower_in_a",
+          "chromosome_arm": "6p",
+          "flag_n": 44,
+          "background_n": 4956,
+          "in_arm_and_flag": 0,
+          "in_arm_and_background": 259,
+          "outside_arm_and_flag": 44,
+          "outside_arm_and_background": 4697,
+          "frac_flag_in_arm": 0.0,
+          "frac_background_in_arm": 0.0522598870056497,
+          "fisher_odds_ratio": 0.0,
+          "fisher_p_value": 0.1704508144244411,
+          "rank_by_p_value": 4
+        },
+        {
+          "direction": "lower_in_a",
+          "chromosome_arm": "10q",
+          "flag_n": 44,
+          "background_n": 4956,
+          "in_arm_and_flag": 0,
+          "in_arm_and_background": 261,
+          "outside_arm_and_flag": 44,
+          "outside_arm_and_background": 4695,
+          "frac_flag_in_arm": 0.0,
+          "frac_background_in_arm": 0.0526634382566586,
+          "fisher_odds_ratio": 0.0,
+          "fisher_p_value": 0.1706646973585311,
+          "rank_by_p_value": 5
+        }
+      ]
+    },
+    {
+      "claim": "Positive S-axis loading is driven by a compact annotated gene set led by PTCH1, NR3C1, PRDM16, and TP73",
+      "details": [
+        {
+          "gene_token": "PTCH1",
+          "n": 7,
+          "weighted_sum": 0.2534412927925584
+        },
+        {
+          "gene_token": "NR3C1",
+          "n": 6,
+          "weighted_sum": 0.2134574912488457
+        },
+        {
+          "gene_token": "PRDM16",
+          "n": 6,
+          "weighted_sum": 0.2072974890470502
+        },
+        {
+          "gene_token": "TP73",
+          "n": 5,
+          "weighted_sum": 0.1689835228025913
+        },
+        {
+          "gene_token": "PTPRN2",
+          "n": 3,
+          "weighted_sum": 0.1018938571214675
+        },
+        {
+          "gene_token": "FHIT",
+          "n": 2,
+          "weighted_sum": 0.077061578631401
+        },
+        {
+          "gene_token": "CDC42BPG",
+          "n": 2,
+          "weighted_sum": 0.0763654299080371
+        },
+        {
+          "gene_token": "CARD11",
+          "n": 2,
+          "weighted_sum": 0.0758208446204662
+        },
+        {
+          "gene_token": "GRIN2B",
+          "n": 2,
+          "weighted_sum": 0.0715566724538802
+        },
+        {
+          "gene_token": "SYT16",
+          "n": 2,
+          "weighted_sum": 0.0702044069766998
+        },
+        {
+          "gene_token": "APOD",
+          "n": 2,
+          "weighted_sum": 0.0686137229204176
+        },
+        {
+          "gene_token": "ACCN1",
+          "n": 2,
+          "weighted_sum": 0.0682331696152686
+        },
+        {
+          "gene_token": "CPVL",
+          "n": 2,
+          "weighted_sum": 0.0679944977164268
+        },
+        {
+          "gene_token": "MCF2L",
+          "n": 2,
+          "weighted_sum": 0.0679676383733748
+        },
+        {
+          "gene_token": "FOXP1",
+          "n": 2,
+          "weighted_sum": 0.0677946731448172
+        }
+      ]
+    }
+  ],
+  "exact_pngs": [
+    "hm_plane.png",
+    "hs_plane.png",
+    "mr_plane.png",
+    "phi_r_plane.png",
+    "sr_plane.png",
+    "mgmt_counts_by_state_domain.png",
+    "h_by_mgmt_condition.png",
+    "s_by_mgmt_condition.png",
+    "m_by_mgmt_condition.png",
+    "r_by_mgmt_condition.png",
+    "phi_by_mgmt_condition.png",
+    "h_by_state_domain.png",
+    "s_by_state_domain.png",
+    "m_by_state_domain.png",
+    "r_by_state_domain.png",
+    "phi_by_state_domain.png",
+    "S_vs_std_beta_by_domain.png",
+    "mean_beta_vs_std_beta_by_domain.png",
+    "phi_vs_std_beta_by_domain.png",
+    "iqr_beta_by_state_domain.png",
+    "min_hrsm_distance_to_shell_by_state_domain.png",
+    "std_beta_by_state_domain.png",
+    "mean_beta_by_state_domain.png",
+    "phi_vs_min_hrsm_distance_to_shell.png",
+    "D3_directional_chromosome_log2OR_vs_selected_background.png",
+    "D3_directional_chromosome_neglog10p_vs_selected_background.png",
+    "D3_chromosome21_directional_log2OR.png"
+  ]
+}

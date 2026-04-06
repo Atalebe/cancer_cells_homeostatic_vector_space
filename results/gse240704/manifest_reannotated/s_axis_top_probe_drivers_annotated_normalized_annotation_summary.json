@@ -1,0 +1,32 @@
+{
+  "input_csv": "results/gse240704/s_axis_drivers/s_axis_top_probe_drivers_annotated.csv",
+  "probe_col_input": "ID_REF",
+  "probe_col_annotation": "ID_REF",
+  "n_input_rows": 100,
+  "n_output_rows": 100,
+  "annotation_columns_used": [
+    "ID_REF",
+    "probe_id",
+    "ucsc_refgene_name",
+    "ucsc_refgene_accession",
+    "refgene_group",
+    "cpg_island_name",
+    "relation_to_cpg_island",
+    "regulatory_feature_group",
+    "regulatory_feature_name",
+    "phantom4_enhancers",
+    "hmm_island",
+    "chromosome",
+    "mapinfo",
+    "strand",
+    "design_type",
+    "color_channel",
+    "UCSC_RefGene_Name",
+    "UCSC_RefGene_Accession",
+    "UCSC_RefGene_Group",
+    "UCSC_CpG_Islands_Name",
+    "Relation_to_UCSC_CpG_Island"
+  ],
+  "n_annotated_rows": 100,
+  "output_csv": "results/gse240704/manifest_reannotated/s_axis_top_probe_drivers_annotated_normalized_annotation.csv"
+}

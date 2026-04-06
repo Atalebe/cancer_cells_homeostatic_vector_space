@@ -1,0 +1,21 @@
+dataset:
+  dataset_id: gse184880
+  accession: GSE184880
+  source_type: geo
+  title: Deep single-cell RNA-seq of treatment-naive HGSOC with non-malignant ovarian samples
+
+paths:
+  raw_dir: data/raw/gse184880
+  processed_dir: data/processed/gse184880
+  metadata_dir: data/metadata/gse184880
+  audit_dir: data/audit_reports/gse184880
+  tables_dir: results/tables/gse184880
+  figures_dir: results/figures/gse184880
+
+download:
+  strategy: geo_series_processed_first
+  expected_files:
+    - series_matrix_or_processed_expression
+    - sample_metadata
+    - supplementary_manifest
+  notes: High-priority later anchor for recoverability against non-malignant reference.

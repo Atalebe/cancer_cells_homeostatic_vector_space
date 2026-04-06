@@ -1,0 +1,10 @@
+{
+  "input_csv": "results/gse240704/manifest_reannotated/s_axis_top_probe_drivers_annotated_normalized_annotation.csv",
+  "output_csv": "results/gse240704/directional_biology_followup/s_axis_top_probe_drivers_with_direction.csv",
+  "direction_source_col": "loading",
+  "n_rows": 100,
+  "direction_counts": {
+    "positive_loading": 99,
+    "negative_loading": 1
+  }
+}
