@@ -20,3 +20,5 @@ results/
 data/raw/
 data/processed/
 .DS_Store
+
+results/gse240704/manual_manifest_annotation/gpl23976_annotation_from_manifest.csv
